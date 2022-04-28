@@ -1,0 +1,68 @@
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section contacts ==========*/
+.contacts {
+  margin: 0 0 57px; }
+  .contacts .list-social {
+    margin: 0 auto; }
+    .contacts .list-social li {
+      margin: 0 58px 0 0; }
+      .contacts .list-social li:last-child {
+        margin: 0; }
+  .contacts .title-wrapper {
+    margin: 0 0 108px; }
+
+.contacts-box {
+  font-size: 18px;
+  line-height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
+  .contacts-box h3 {
+    margin: 0 0 25px;
+    font-size: 22px;
+    font-weight: bold; }
+  .contacts-box p {
+    margin: 0 0 33px; }
+    .contacts-box p:last-child {
+      margin: 0; }
+  .contacts-box h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px; }
+  .contacts-box a {
+    color: #000; }
+    .contacts-box a:hover {
+      color: #FFC200; }
+
+.contacts-box-center {
+  margin: 0 auto; }
+
+.contacts-box-end {
+  margin: 0 0 0 auto; }
+
+/*==========  section contacts end  ==========*/
