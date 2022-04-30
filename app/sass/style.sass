@@ -123,9 +123,10 @@ button, .btn
   border-radius: 25px
   font-weight: 600
   font-size: 20px
+  width: fit-content
 
 .btn-accent
-  color: #fff
+  color: #000
   background: $accent
 
   &:hover
@@ -149,6 +150,9 @@ strong, b
 
 .bg-accent
   background: $accent
+
+.color-accent
+  color: $accent
 
 .container
   max-width: 1635px
@@ -181,6 +185,9 @@ h2
       font-size: 27px
       line-height: 33px
       max-width: 870px
+  h2
+    margin: 0 auto 0 0
+    width: fit-content
 
 .title-wrapper__box-v2
   border-right: none
@@ -281,6 +288,22 @@ h2
     background: $accent
     fill: #fff
     border-color: $accent
+
+.links-right
+  width: 82px
+  height: 82px
+  min-width: 82px
+  border: 1px solid #000
+    radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  fill: #BFBFBF
+  padding: 25px
+  &:hover
+    background: $accent
+    border-color: $accent
+    fill: #fff
 
 .slider-nav
   width: 100%

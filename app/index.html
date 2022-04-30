@@ -31,6 +31,39 @@
 
 <body>
 
+<div class="mobile-menu">
+  <div class="btn-close"></div>
+  <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+  <ul class="menu my-ul">
+    <li><a href="about.html" class="active">О компании</a></li>
+    <li><a href="services.html">Услуги</a></li>
+    <li><a href="cases.html">Кейсы</a></li>
+    <li><a href="media.html">Медиа</a></li>
+    <li><a href="carrier.html">Карьера</a></li>
+    <li><a href="academy.html">Академия</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+  </ul>
+
+  <ul class="list-social my-ul">
+    <li><a href="#">
+      <svg class="svg-icon">
+        <use xlink:href="img/sprite.svg#vk"></use>
+      </svg>
+    </a></li>
+    <li><a href="#">
+      <svg class="svg-icon">
+        <use xlink:href="img/sprite.svg#telegram"></use>
+      </svg>
+    </a></li>
+    <li><a href="#">
+      <svg class="svg-icon">
+        <use xlink:href="img/sprite.svg#linkedin"></use>
+      </svg>
+    </a></li>
+    <li><a href="#"><img src="img/habr.png" alt=""></a></li>
+  </ul>
+</div>
+
 <header>
   <div class="container">
     <div class="row">
@@ -72,6 +105,12 @@
               <li><a href="#"><img src="img/habr.png" alt=""></a></li>
             </ul>
           </div>
+
+          <div class="btn-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </div>
@@ -80,25 +119,375 @@
 
 <main class="home">
   <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 offset-lg-1">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+        <div class="subtitle-logo">IN CODE WE TRUST</div>
+      </div>
+      <div class="col-12 col-lg-7">
+        <div class="home-content">
+          <h3><span class="color-accent">создаем</span>
+            цифровые решения</h3>
+          <a href="#" class="btn btn-accent">Заказать разработку</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="advantages">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <div class="advantages-wrapper">
+            <div class="advantages-box">
+              <div class="advantages-box__number">13+</div>
+              <p>лет опыта</p>
+            </div>
+            <div class="advantages-box">
+              <div class="advantages-box__number">100+</div>
+              <p>реализованных проектов</p>
+            </div>
 
+            <div class="advantages-box">
+              <div class="advantages-box__number">5+</div>
+              <p>лет в ассоциации РУССОФТ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <a href="#" class="btn-download"><img src="img/download-btn.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 
-<section class="">
-  <div class="container">
+<section class="competencies bg-grey">
+  <div class="title-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex align-items-center flex-wrap">
+          <h2>Компетенции</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="title-wrapper__box">
+            <a href="#" class="links-bottom">
+              <svg class="svg-icon">
+                <use xlink:href="img/sprite.svg#arrow-bottom"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="competencies-wrapper">
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon1.svg" alt=""></div>
+            <h3>Web-приложения</h3>
+            <div class="box-text">
+              <p>Создаем понятный для пользователей frontend и надежный backend для стабильной работы вашего
+                сервиса.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon2.svg" alt=""></div>
+            <h3>Мобильные приложения</h3>
+            <div class="box-text">
+              <p>Разработка приложений на IOS и Android.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon3.svg" alt=""></div>
+            <h3>Машинное обучение
+              и компьютерное зрение</h3>
+            <div class="box-text">
+              <p>Проводим исследования и реализуем проекты с применением машинного обучения, анализа данных и
+                компьютерного зрения.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon4.svg" alt=""></div>
+            <h3>Аудит готовых решений</h3>
+            <div class="box-text">
+              <p>Оценка рабочих процессов заказчика и составление экспертного заключения.
+              </p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon5.svg" alt=""></div>
+            <h3>Интеграция</h3>
+            <div class="box-text">
+              <p>Интегрируемся с сервисами и оборудованием заказчика.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon6.svg" alt=""></div>
+            <h3>Исследования (НИР)</h3>
+            <div class="box-text">
+              <p>Проведение экспериментов для определения технического потенциала идей заказчика.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon7.svg" alt=""></div>
+            <h3>Аналитика</h3>
+            <div class="box-text">
+              <p>Детализируем требования ТЗ, разрабатываем пользовательские сценарии и программную документацию в
+                соответствии с ГОСТ, ЕСПД.</p>
+            </div>
+          </div>
+          <div class="competencies-box">
+            <div class="competencies-box__icon"><img src="img/icon8.svg" alt=""></div>
+            <h3>Тестирование</h3>
+            <div class="box-text">
+              <p>Обеспечиваем качество вашего продукта, устраняем ошибки и сбои в функционировании.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="partners-wrapper">
+          <div class="partners-box"><img src="img/python.png" alt=""></div>
+          <div class="partners-box"><img src="img/kotlin.png" alt=""></div>
+          <div class="partners-box"><img src="img/js.png" alt=""></div>
+          <div class="partners-box"><img src="img/java.png" alt=""></div>
+          <div class="partners-box"><img src="img/react.png" alt=""></div>
+          <div class="partners-box"><img src="img/angular.svg" alt=""></div>
+          <div class="partners-box"><img src="img/vue.png" alt=""></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="">
+<section class="stages-work">
+  <div class="title-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex align-items-center flex-wrap">
+          <h2>Как мы работаем</h2>
+          <a href="#" class="links-right">
+            <svg class="svg-icon">
+              <use xlink:href="img/sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="title-wrapper__box">
+            <div class="category-work-item">
+              <h3>Аутсорс</h3>
+              <div class="box-text">
+                <p>Разрабатываем программное
+                  обеспечение для вашего
+                  бизнеса под ключ. </p>
+              </div>
+            </div>
+            <div class="category-work-item">
+              <h3>Аутстаффинг</h3>
+              <div class="box-text">
+                <p>Помогаем компаниям укрепить
+                  ИТ-команду с помощью наших
+                  разработчиков, обладающими
+                  необходимыми компетенциями
+                  и опытом.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="stages-work-wrapper">
+          <h3>Этапы разработки</h3>
 
+          <div class="stages-work-box">
+            <div class="stages-work-box__head">
+              <div class="stages-work-box__number">
+                <p>1</p>
+                <div class="icon-arrow"><img src="img/double-arrow.svg" alt=""></div>
+              </div>
+              <h4>Сбор и анализ
+                требований</h4>
+            </div>
+            <div class="stages-work-box__body">
+              <div class="box-text">
+                <p><strong>Команда</strong>
+                  вся проектная
+                  группа</p>
+                <p><strong>Результат этапа</strong>
+                  функциональные
+                  требования, бриф,
+                  устав проекта,
+                  ТЗ, ПЗ (ГОСТ 19,34)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stages-work-box">
+            <div class="stages-work-box__head">
+              <div class="stages-work-box__number">
+                <p>2</p>
+                <div class="icon-arrow"><img src="img/double-arrow.svg" alt=""></div>
+              </div>
+              <h4>Разработка</h4>
+            </div>
+            <div class="stages-work-box__body">
+              <div class="box-text">
+                <p><strong>Команда</strong>
+                  руководитель проекта,
+                  разработчики, аналитик</p>
+                <p><strong>Результат этапа</strong>
+                  описание архитектуры,
+                  код, раб. документы</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stages-work-box">
+            <div class="stages-work-box__head">
+              <div class="stages-work-box__number">
+                <p>3</p>
+                <div class="icon-arrow"><img src="img/double-arrow.svg" alt=""></div>
+              </div>
+              <h4>Тестирование</h4>
+            </div>
+            <div class="stages-work-box__body">
+              <div class="box-text">
+                <p><strong>Команда</strong>
+                  аналитик, <br>
+                  тестировщик</p>
+                <p><strong>Результат этапа</strong>
+                  набор тест кейсов и тестов,
+                  баг репорты</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stages-work-box">
+            <div class="stages-work-box__head">
+              <div class="stages-work-box__number">
+                <p>4</p>
+                <div class="icon-arrow"><img src="img/double-arrow.svg" alt=""></div>
+              </div>
+              <h4>Внедрение и обучение</h4>
+            </div>
+            <div class="stages-work-box__body">
+              <div class="box-text">
+                <p><strong>Команда</strong>
+                  руководитель проекта,
+                  аналитикк</p>
+                <p><strong>Результат этапа</strong>
+                  инструкция, руководство
+                  пользователя,
+                  обучающая презентация</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stages-work-box">
+            <div class="stages-work-box__head">
+              <div class="stages-work-box__number">
+                <p>5</p>
+              </div>
+              <h4>Сопровождение</h4>
+            </div>
+            <div class="stages-work-box__body">
+              <div class="box-text">
+                <p><strong>Команда</strong>
+                  вся проектная <br>
+                  группа</p>
+                <a href="#" class="btn btn-accent">Заказать разработку</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="">
-  <div class="container">
-
+<section class="cases">
+  <div class="title-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 d-flex align-items-center flex-wrap">
+          <h2>Кейсы</h2>
+          <a href="#" class="links-bottom">
+            <svg class="svg-icon">
+              <use xlink:href="img/sprite.svg#arrow-bottom"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="title-wrapper__box">
+            <h3>Внедряем, дорабатываем и поддерживаем собственные
+              разработки и лучшие продукты наших партнеров</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="cases-slider">
+            <div class="slide">
+              <div class="cases-item">
+                <h3>Федеральная <br>
+                  электронная <br>
+                  регистратура</h3>
+                <div class="box-text">
+                  <p>Развитие модуля «федеральная электронная регистратура»,
+                    входящего в состав единой государственной информационной системы минздрава</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="cases-item">
+                <h3>МКА <br>
+                  ЖКХ</h3>
+                <div class="box-text">
+                  <p>Разработка сервиса мониторинга контроля
+                    устранения аварий и инцидентов на объектах
+                    жилищно-коммунального хозяйства</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="cases-item">
+                <h3>Умные <br>
+                  парковки</h3>
+                <div class="box-text">
+                  <p>Разработка единого ресурса для организации
+                    и управления функционирования транспортной системы города.
+                    В стратегические задачи входят долгосрочное улучшение показателей в области дорожного движения.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="cases-item">
+                <h3>Федеральная <br>
+                  электронная <br>
+                  регистратура</h3>
+                <div class="box-text">
+                  <p>Развитие модуля «федеральная электронная регистратура»,
+                    входящего в состав единой государственной информационной системы минздрава</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav cases-slider-nav"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -106,10 +495,10 @@
   <div class="title-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-4 d-flex align-items-center flex-wrap">
           <h2>Доверьтесь нам</h2>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-lg-8">
           <div class="title-wrapper__box">
             <h3>Вот эти дружелюбные люди помогут достичь вам результата.
               И никто не пострадает.</h3>
@@ -120,7 +509,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -143,7 +532,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -166,7 +555,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -191,7 +580,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -214,7 +603,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -238,7 +627,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-4 col-xl-2 mb-40">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-40">
         <div class="trust-us-box">
           <div class="trust-us-box__photo"></div>
           <div class="trust-us-box__body">
@@ -315,10 +704,10 @@
   <div class="title-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-6 d-flex align-items-center flex-wrap">
           <h2>Отзывы</h2>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
           <div class="title-wrapper__box title-wrapper__box-v2">
             <a href="#" class="links-bottom links-bottom-grey">
               <svg class="svg-icon">
@@ -390,10 +779,10 @@
   <div class="title-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-6 d-flex align-items-center flex-wrap">
           <h2>Новости</h2>
         </div>
-        <div class="col-12 col-md-6 d-none d-md-block">
+        <div class="col-12 col-lg-6 d-none d-lg-block">
           <div class="title-wrapper__box title-wrapper__box-v2"></div>
         </div>
       </div>
@@ -468,10 +857,10 @@
   <div class="title-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-4 d-flex align-items-center flex-wrap">
           <h2>Комьюнити</h2>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-lg-8">
           <div class="title-wrapper__box">
             <a href="#" class="links-bottom">
               <svg class="svg-icon">
@@ -600,10 +989,10 @@
   <div class="title-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-4 d-flex align-items-center flex-wrap">
           <h2>Контакты</h2>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-lg-8">
           <div class="title-wrapper__box">
             <ul class="list-social my-ul">
               <li><a href="#">
@@ -647,7 +1036,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-3 mb-40">
+      <div class="col-12 col-sm-6 col-lg-3 mb-40">
         <div class="contacts-box">
           <h3>Штаб-квартира:</h3>
           <p>г. Пенза, Суворова 66, 6 этаж</p>
@@ -656,7 +1045,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3 mb-40">
+      <div class="col-12 col-sm-6 col-lg-3 mb-40">
         <div class="contacts-box contacts-box-center">
           <h3>Обсудить разработку:</h3>
           <a href="mailto:request@codeinside.ru">request@codeinside.ru</a>
@@ -664,7 +1053,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3 mb-40">
+      <div class="col-12 col-sm-6 col-lg-3 mb-40">
         <div class="contacts-box contacts-box-center">
           <h3>Отправить резюме:</h3>
           <a href="mailto:job@codeinside.ru">job@codeinside.ru</a>
@@ -672,7 +1061,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3 mb-40">
+      <div class="col-12 col-sm-6 col-lg-3 mb-40">
         <div class="contacts-box contacts-box-end">
           <h3>Остальные вопросы:</h3>
           <a href="mailto:office@codeinside.ru">office@codeinside.ru</a>

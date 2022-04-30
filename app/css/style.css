@@ -130,10 +130,13 @@ button, .btn {
   padding: 12px 50px;
   border-radius: 25px;
   font-weight: 600;
-  font-size: 20px; }
+  font-size: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
 
 .btn-accent {
-  color: #fff;
+  color: #000;
   background: #FFC200; }
   .btn-accent:hover {
     background: #000;
@@ -156,6 +159,9 @@ strong, b {
 
 .bg-accent {
   background: #FFC200; }
+
+.color-accent {
+  color: #FFC200; }
 
 .container {
   max-width: 1635px; }
@@ -192,6 +198,11 @@ h2 {
       font-size: 27px;
       line-height: 33px;
       max-width: 870px; }
+  .title-wrapper h2 {
+    margin: 0 auto 0 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
 
 .title-wrapper__box-v2 {
   border-right: none; }
@@ -304,6 +315,28 @@ h2 {
     background: #FFC200;
     fill: #fff;
     border-color: #FFC200; }
+
+.links-right {
+  width: 82px;
+  height: 82px;
+  min-width: 82px;
+  border: 1px solid #000;
+    border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  fill: #BFBFBF;
+  padding: 25px; }
+  .links-right:hover {
+    background: #FFC200;
+    border-color: #FFC200;
+    fill: #fff; }
 
 .slider-nav {
   width: 100%;
