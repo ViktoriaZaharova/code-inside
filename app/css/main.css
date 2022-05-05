@@ -3,12 +3,16 @@
   background: #000;
   color: #fff;
   padding: 80px 0 0; }
+  .home .logo {
+    max-width: 491px;
+    margin: 0 0 0 auto; }
 
 .subtitle-logo {
   margin: 28px 0 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 49.5px; }
+  font-size: 49px;
+  text-align: right; }
 
 .home-content {
   height: 100%;
@@ -79,6 +83,10 @@
 
 /*==========  section home end  ==========*/
 /*==========  section competencies ==========*/
+.competencies .title-wrapper__box {
+  width: calc(100% + 15px);
+  margin: 0 0 0 -15px; }
+
 .competencies-wrapper {
   margin: 60px 0 0;
   display: -webkit-box;
@@ -92,11 +100,13 @@
 
 .competencies-box {
   width: 25%;
-  border: 1px solid #000000;
+  border: 0.75px solid #000000;
   -webkit-transition: .3s ease;
   transition: .3s ease;
   position: relative;
-  padding: 28px 32px 35px; }
+  padding: 28px 32px 35px;
+  margin: -0.375px;
+  background: #EDEDED; }
   .competencies-box:before {
     content: '';
     position: absolute;
@@ -172,8 +182,13 @@
 /*==========  section stages-work ==========*/
 .stages-work {
   margin: 0 0 70px; }
+  .stages-work .title-wrapper {
+    overflow: hidden; }
   .stages-work .title-wrapper__box {
-    padding: 0; }
+    padding: 0;
+    border: none; }
+    .stages-work .title-wrapper__box:before {
+      display: none; }
 
 .category-work-item {
   width: 50%;
@@ -182,7 +197,11 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   border: 0.75px solid #000000;
-  padding: 66px 40px 57px 72px; }
+    border-bottom: none;
+    border-top: none;
+  padding: 66px 40px 57px 72px;
+  background: #fff;
+  margin: -0.375px; }
   .category-work-item:before {
     content: '';
     position: absolute;
@@ -283,6 +302,9 @@
 .cases-slider .slick-slide {
   height: auto; }
 
+.cases-slider .slick-current .cases-item {
+  border-left: 0.75px solid #000; }
+
 .cases-item {
   width: 100%;
   height: 100%;
@@ -290,7 +312,8 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   padding: 121px 53px 84px 72px;
-  border: 0.75px solid #000000; }
+  border: 0.75px solid #000;
+    border-left: none; }
   .cases-item h3 {
     margin: 0 0 35px;
     font-weight: bold;
@@ -555,6 +578,9 @@
 .community-slider .slick-slide {
   height: auto; }
 
+.community-slider .slick-current .community-item {
+  border-left: 0.75px solid #000; }
+
 .section-wrapper {
   width: 100%;
   padding: 77px 0 82px;
@@ -563,7 +589,8 @@
 
 .community-item {
   position: relative;
-  border: 0.75px solid #000000;
+  border: 0.75px solid #000;
+    border-left: none;
   padding: 83px 74px 130px 72px;
   line-height: 20px;
   font-size: 18px;

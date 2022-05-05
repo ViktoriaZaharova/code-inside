@@ -11,7 +11,13 @@
   .p-130 {
     padding: 100px 0; }
   .callback-wrapper {
-    padding: 0 40px; } }
+    padding: 0 40px; }
+  .subtitle-logo {
+    font-size: 43px; }
+  .home-content h3 {
+    font-size: 60px; }
+  .home .logo {
+    max-width: 435px; } }
 
 @media only screen and (max-width: 1500px) {
   .contacts .list-social li {
@@ -72,9 +78,17 @@
   .home-content h3 {
     font-size: 50px; }
   .subtitle-logo {
-    font-size: 30px; }
+    text-align: left;
+    font-size: 39px; }
   .menu {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .home .logo {
+    max-width: 400px;
+    margin: 0; } }
+
+@media only screen and (max-width: 1300px) {
+  .subtitle-logo {
+    font-size: 34px; } }
 
 @media only screen and (max-width: 1200px) {
   h2 {
@@ -212,7 +226,9 @@
   header .menu {
     font-size: 14px; }
   header .list-social li {
-    margin: 0 12px 0 0; } }
+    margin: 0 12px 0 0; }
+  .subtitle-logo {
+    font-size: 28px; } }
 
 @media only screen and (max-width: 992px) {
   .contacts-box-center, .contacts-box-end {
@@ -223,10 +239,15 @@
       margin: 0 0 3px; }
   footer .menu {
     line-height: 1.4; }
+  .competencies .title-wrapper__box {
+    margin: 0;
+    width: 100%; }
   .title-wrapper__box {
     border: none;
     min-height: auto;
-    padding: 20px 0; }
+    padding: 20px 0;
+    margin: 0;
+    width: 100%; }
   .title-wrapper {
     padding: 20px 0 0; }
     .title-wrapper h2 {
@@ -300,7 +321,9 @@
     margin: 0 auto;
     border: none; }
   .header-wrapper {
-    min-height: 90px; } }
+    min-height: 90px; }
+  .category-work-item {
+    border-top: 0.75px solid #000; } }
 
 @media only screen and (max-width: 768px) {
   .contacts-box h3, .contacts-box h4 {
@@ -402,7 +425,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .subtitle-logo, .home-content h3 {
-    font-size: 24px; }
+    font-size: 22px; }
   .home .logo {
     max-width: 220px; } }
 
