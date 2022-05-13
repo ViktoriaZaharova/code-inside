@@ -47,8 +47,8 @@
       font-size: 40px
       line-height: normal
 
-  .stages-work-box .btn
-    font-size: 16px
+  //.stages-work-box .btn
+  //  font-size: 16px
 
   .advantages-wrapper
     padding: 40px 80px
@@ -95,8 +95,8 @@
       font-size: 30px
       line-height: normal
 
-  .stages-work-box
-    width: calc(25% - 20px)
+  //.stages-work-box
+  //  width: calc(25% - 20px)
 
   .category-work-item
     padding: 30px
@@ -139,6 +139,7 @@
 
   footer
     .logo
+      border: 0.35px solid rgba(#FFC200, .7)
       width: 100%
       max-width: none
       justify-content: center
@@ -151,6 +152,9 @@
       justify-content: center
       padding: 15px 0
       margin: -0.375px 0
+      border: 0.35px solid rgba(#FFC200, .7)
+        top: none
+        bottom: none
 
     .phone
       width: fit-content
@@ -159,6 +163,7 @@
     flex-wrap: wrap
 
   .footer-box
+    border: 0.35px solid rgba(#FFC200, .7)
     margin: -0.375px 0
     padding: 20px 0
     width: 100%
@@ -241,21 +246,22 @@
   .stages-work
     margin: 0 0 40px
 
-  .stages-work-wrapper h3
-    margin: 0 0 40px
-    font-size: 30px
+  //.stages-work-wrapper h3
+  //  margin: 0 0 40px
+  //  font-size: 30px
+  //
+  //.stages-work-box
+  //  width: 33.3%
+  //  padding: 0 20px
 
-  .stages-work-box
-    width: 33.3%
-    padding: 0 20px
-
-  .stages-work-wrapper
-    justify-content: flex-start
+  //.stages-work-wrapper
+  //  justify-content: flex-start
 
   .competencies-box
     padding: 20px
     h3
-      min-height: auto
+      padding: 0 7px
+      font-size: 16px
 
   .partners-wrapper
     margin: 40px 0
@@ -289,7 +295,16 @@
   .subtitle-logo
     font-size: 28px
 
+  .stages-work-slider-item
+    width: 600px
+    height: 350px
+    &__icon
+      max-width: 100px
+
 @media only screen and (max-width: 992px)
+  .competencies-box h3
+    min-height: auto
+
   .contacts-box-center, .contacts-box-end
     margin: 0
 
@@ -411,6 +426,12 @@
   .category-work-item
     border-top: 0.75px solid #000
 
+  .stages-work-slider .slide
+    margin: 0 10px
+
+  .stages-work-slider-item
+    width: 500px
+
 @media only screen and (max-width: 768px)
   .contacts-box h3, .contacts-box h4
     margin: 0 0 15px
@@ -471,14 +492,22 @@
     .box-text
       font-size: 16px
 
-  .stages-work-box
-    width: 50%
-
   .advantages-box
     width: 33.3%
     margin: 0
     &__number
       font-size: 50px
+
+  .partners-wrapper
+    .partners-box
+      &:last-child, &:first-child
+        margin: 0 auto
+
+  .stages-work-slider-item
+    width: 300px
+    height: 220px
+    &__icon
+      max-width: 60px
 
 @media only screen and (max-width: 576px)
   .contacts .list-social
@@ -522,14 +551,14 @@
     min-width: 60px
     padding: 17px
 
-  .stages-work-box
-    width: 100%
-    padding: 0
-    .btn
-      margin: 30px 0 0
-
-  .stages-work-box .box-text p
-    margin: 0 0 25px
+  //.stages-work-box
+  //  width: 100%
+  //  padding: 0
+  //  .btn
+  //    margin: 30px 0 0
+  //
+  //.stages-work-box .box-text p
+  //  margin: 0 0 25px
 
   .competencies-wrapper
     margin: 40px 0 0
@@ -562,10 +591,10 @@
       width: 25px
       height: 25px
 
-  .stages-work-box__number
-    font-size: 100px
-    .icon-arrow
-      max-width: 70px
+  //.stages-work-box__number
+  //  font-size: 100px
+  //  .icon-arrow
+  //    max-width: 70px
 
   .competencies-box
     width: 100%
@@ -588,4 +617,12 @@
     font-size: 30px
 
   .reviews-box__photo
+    width: 100%
+
+  .stages-work-slider
+    .slide
+      margin: 0
+      padding: 0 15px
+
+  .stages-work-slider-item
     width: 100%

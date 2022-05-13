@@ -2,8 +2,8 @@
 header {
   background: #000;
   color: #fff;
-  border-bottom: 0.75px solid #FFC200;
-  margin: -1px 0 0; }
+  border-bottom: 0.35px solid rgba(255, 194, 0, 0.7);
+  margin: -0.5px 0 0; }
   header .list-social li {
     margin: 0 17px 0 0; }
     header .list-social li a {
@@ -29,7 +29,7 @@ header {
   max-width: 158px;
   width: 100%;
   fill: #fff;
-  border: 0.75px solid #FFC200;
+  border: 0.35px solid rgba(255, 194, 0, 0.7);
     border-bottom: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +54,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 0.75px solid #FFC200;
+  border: 0.35px solid rgba(255, 194, 0, 0.7);
     border-bottom: none;
   padding: 0 80px; }
 

@@ -130,3 +130,24 @@ $('.cases-slider').slick({
     ]
 });
 
+$('.stages-work-slider').slick({
+    slidesToShow: 3,
+    dots: true,
+    appendArrows: '.stages-work-slider-nav',
+    appendDots: '.stages-work-slider-nav',
+    prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+    variableWidth: true,
+    centerMode: true,
+    responsive: [
+        {
+            breakpoint: 420,
+            settings: {
+                variableWidth: false,
+                centerMode: false,
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
+
