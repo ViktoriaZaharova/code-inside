@@ -193,7 +193,6 @@ h2 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0 0 0 -10px;
-    border-right: 0.75px solid #000000;
     border-left: 0.75px solid #000000; }
     .title-wrapper__box h3 {
       font-size: 27px;
@@ -204,9 +203,6 @@ h2 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content; }
-
-.title-wrapper__box-v2 {
-  border-right: none; }
 
 .list-social {
   display: -webkit-box;

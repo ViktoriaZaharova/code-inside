@@ -4,9 +4,12 @@
 header
   background: #000
   color: #fff
-  border-bottom: 0.35px solid rgba(#FFC200, .7)
-  margin: -0.5px 0 0
+  border:
+    top: 0.35px solid rgba(#FFC200, .7)
+    bottom: 0.35px solid rgba(#FFC200, .7)
+  //margin: -0.5px 0 0
   .list-social
+
     li
       margin: 0 17px 0 0
       a
@@ -21,7 +24,6 @@ header
   min-height: 131px
   display: flex
   align-items: stretch
-  flex-wrap: wrap
 
 .logo-arrow
   max-width: 158px
@@ -29,9 +31,11 @@ header
   fill: #fff
   border: 0.35px solid rgba(#FFC200, .7)
     bottom: none
+    top: none
   display: flex
   align-items: center
   justify-content: center
+  margin: -0.35px 0 0
   .svg-icon
     width: 37px
     height: 27px
@@ -42,6 +46,7 @@ header
   justify-content: center
   border: 0.35px solid rgba(#FFC200, .7)
     bottom: none
+    top: none
   padding: 0 80px
 
 .btn-burger

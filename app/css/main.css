@@ -147,7 +147,10 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 0 0 0 11px; }
+    padding: 0 0 0 11px;
+    height: 36px; }
+    .competencies-box__icon img {
+      max-height: 100%; }
 
 .partners-wrapper {
   margin: 62px 0 84px;
@@ -677,6 +680,8 @@
         margin: 0; }
   .contacts .title-wrapper {
     margin: 0 0 108px; }
+  .contacts .title-wrapper__box {
+    border-right: 0.75px solid #000000; }
 
 .contacts-box {
   font-size: 18px;
