@@ -17,7 +17,9 @@
   .home-content h3 {
     font-size: 60px; }
   .home .logo {
-    max-width: 435px; } }
+    max-width: 435px; }
+  .header-text {
+    font-size: 20px; } }
 
 @media only screen and (max-width: 1500px) {
   .contacts .list-social li {
@@ -36,6 +38,8 @@
   .header-box {
     padding: 0 40px; }
   .menu {
+    font-size: 18px; }
+  .header-text {
     font-size: 18px; } }
 
 @media only screen and (max-width: 1400px) {
@@ -49,7 +53,12 @@
     padding: 40px;
     max-width: 550px; }
   .community-item {
+    min-height: 360px;
     padding: 40px; }
+    .community-item:hover {
+      padding-top: 40px; }
+  .community-item .item-hover__img {
+    height: 140px; }
   .news-slider {
     margin: 30px 0 0; }
     .news-slider .slick-list {
@@ -84,7 +93,9 @@
 
 @media only screen and (max-width: 1300px) {
   .subtitle-logo {
-    font-size: 34px; } }
+    font-size: 34px; }
+  .header-text {
+    font-size: 16px; } }
 
 @media only screen and (max-width: 1200px) {
   h2 {
@@ -198,6 +209,10 @@
     .cases-item h3 {
       font-size: 24px;
       min-height: 93px; }
+    .cases-item:hover {
+      padding-top: 35px; }
+  .item-hover {
+    margin: auto auto -41px; }
   .stages-work {
     margin: 0 0 40px; }
   .competencies-box {
@@ -231,7 +246,12 @@
     width: 600px;
     height: 350px; }
     .stages-work-slider-item__icon {
-      max-width: 100px; } }
+      max-width: 100px; }
+  .header-text {
+    text-align: center; }
+    .header-text p {
+      max-width: 360px;
+      margin: 0 auto; } }
 
 @media only screen and (max-width: 992px) {
   .competencies-box h3 {
@@ -332,7 +352,11 @@
   .stages-work-slider .slide {
     margin: 0 10px; }
   .stages-work-slider-item {
-    width: 500px; } }
+    width: 500px; }
+  .header-text {
+    display: none; }
+  .community-item .item-hover {
+    width: calc(100% - 10px); } }
 
 @media only screen and (max-width: 768px) {
   .contacts-box h3, .contacts-box h4 {
@@ -453,7 +477,11 @@
   .btn-burger {
     margin: auto 0 auto auto; }
   .header-wrapper {
-    min-height: 70px; } }
+    min-height: 70px; }
+  .item-hover__img {
+    height: 120px; }
+  .item-hover__img-icon {
+    max-width: 50px; } }
 
 @media only screen and (max-width: 420px) {
   .form-group label {
