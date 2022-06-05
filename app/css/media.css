@@ -80,6 +80,8 @@
     font-size: 100px;
     line-height: 1;
     margin: 0; }
+  .advantages-box p {
+    padding: 0 0 0 13px; }
   .home-content h3 {
     font-size: 50px; }
   .subtitle-logo {
@@ -232,6 +234,8 @@
     font-size: 16px; }
     .advantages-box__number {
       font-size: 80px; }
+    .advantages-box p {
+      padding: 0 0 0 10px; }
   .logo-arrow {
     max-width: 100px; }
   .header-box {
@@ -406,6 +410,8 @@
     margin: 0; }
     .advantages-box__number {
       font-size: 50px; }
+    .advantages-box p {
+      padding: 0 0 0 6px; }
   .partners-wrapper .partners-box:last-child, .partners-wrapper .partners-box:first-child {
     margin: 0 auto; }
   .stages-work-slider-item {
@@ -451,6 +457,8 @@
     margin: 0 0 20px;
     text-align: center;
     width: 100%; }
+    .advantages-box p {
+      padding: 0; }
   .advantages-wrapper {
     padding: 20px 0;
     -ms-flex-wrap: wrap;
