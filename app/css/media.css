@@ -34,7 +34,7 @@
     font-size: 40px;
     line-height: normal; }
   .advantages-wrapper {
-    padding: 40px 80px; }
+    padding: 40px 80px 40px 30px; }
   .header-box {
     padding: 0 40px; }
   .menu {
@@ -76,6 +76,8 @@
     padding: 30px; }
     .category-work-item h3 {
       font-size: 28px; }
+  .advantages-wrapper {
+    padding-left: 0; }
   .advantages-box__number {
     font-size: 100px;
     line-height: 1;
@@ -225,7 +227,7 @@
   .partners-wrapper {
     margin: 40px 0; }
   .advantages-wrapper {
-    padding: 30px 20px; }
+    padding: 30px 20px 30px 0; }
   .btn-download {
     max-width: 110px; }
   .home-content h3 {
@@ -309,7 +311,8 @@
   .competencies-box {
     width: 50%; }
   .advantages-wrapper {
-    border: none; }
+    border: none;
+    padding: 30px 20px; }
   .btn-download {
     margin: 20px auto;
     height: auto; }
