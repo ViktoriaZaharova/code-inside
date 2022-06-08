@@ -71,7 +71,27 @@
   align-items: center
   justify-content: center
   margin: auto
-  height: 100%
+  position: relative
+  width: 138px
+  height: 138px
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    background: url("../img/download-btn-bg.svg") no-repeat center
+      size: 100%
+    width: 100%
+    height: 100%
+    animation: rot 10s linear infinite
+
+
+@keyframes rot
+  from
+    transform: rotate(0)
+
+  to
+    transform: rotate(1turn)
 /*==========  section home end  ==========*/
 
 
@@ -176,13 +196,12 @@
 
 .icon-decor4
   &:before
-    width: 16px
-    height: 18px
-    background: url("../img/decor-icon4.svg") no-repeat center
-      size: 100%
+    width: 15px
+    height: 15px
+    border-radius: 50%
     top: 50%
     transform: translate(0,-50%)
-    right: 4px
+    right: 4.5px
 
 .icon-decor5
   &:before

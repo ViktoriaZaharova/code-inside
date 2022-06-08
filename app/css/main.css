@@ -84,7 +84,36 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  height: 100%; }
+  position: relative;
+  width: 138px;
+  height: 138px; }
+  .btn-download:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../img/download-btn-bg.svg") no-repeat center;
+      background-size: 100%;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: rot 10s linear infinite;
+            animation: rot 10s linear infinite; }
+
+@-webkit-keyframes rot {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn); } }
+
+@keyframes rot {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn); } }
 
 /*==========  section home end  ==========*/
 /*==========  section competencies ==========*/
@@ -202,14 +231,13 @@
   right: 4px; }
 
 .icon-decor4:before {
-  width: 16px;
-  height: 18px;
-  background: url("../img/decor-icon4.svg") no-repeat center;
-    background-size: 100%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
   top: 50%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
-  right: 4px; }
+  right: 4.5px; }
 
 .icon-decor5:before {
   width: 16px;
