@@ -172,16 +172,79 @@
 .icon-decor:before {
   content: '';
   position: absolute;
+  background: #FFC200;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  opacity: 0; }
+
+.icon-decor1:before {
   width: 29px;
   height: 14px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  bottom: 6px;
-  background: #FFC200;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  opacity: 0; }
+  bottom: 6px; }
+
+.icon-decor2:before {
+  width: 16px;
+  height: 18px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 5px; }
+
+.icon-decor3:before {
+  width: 18.5px;
+  height: 21.5px;
+  background: url("../img/decor-icon3.svg") no-repeat center;
+    background-size: 100%;
+  top: 5px;
+  right: 4px; }
+
+.icon-decor4:before {
+  width: 16px;
+  height: 18px;
+  background: url("../img/decor-icon4.svg") no-repeat center;
+    background-size: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  right: 4px; }
+
+.icon-decor5:before {
+  width: 16px;
+  height: 18px;
+  background: url("../img/decor-icon5.svg") no-repeat center;
+    background-size: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  right: 5px; }
+
+.icon-decor6:before {
+  width: 15px;
+  height: 15px;
+  background: url("../img/decor-icon6.svg") no-repeat center;
+    background-size: 100%;
+  top: 10px;
+  left: 7px; }
+
+.icon-decor7:before {
+  width: 6px;
+  height: 13.5px;
+  bottom: 7.5px;
+  left: 1.5px; }
+
+.icon-decor8:before {
+  width: 16px;
+  height: 16px;
+  background: url("../img/decor-icon8.svg") no-repeat center;
+    background-size: 100%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  border-radius: 50%; }
 
 .partners-wrapper {
   margin: 62px 0 84px;
@@ -804,6 +867,9 @@
 
 .form .btn-accent {
   color: #fff; }
+
+.form-callback button {
+  padding: 9.5px 50px; }
 
 .form-group {
   width: 100%;
