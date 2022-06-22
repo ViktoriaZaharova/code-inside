@@ -154,34 +154,54 @@
       margin: 0 0 30px
 
   footer
+    .container
+      padding: 0
     .logo
-      border: 0.35px solid rgba(#FFC200, .7)
+      border: none
+        bottom: 0.75px solid rgba(#FFC200, .7)
       width: 100%
       max-width: none
-      justify-content: center
+      justify-content: flex-start
       display: flex
       align-items: center
-      padding: 20px 0
-      margin: -0.375px 0
+      padding: 23px 33px
+      margin: 0
     .menu
       width: 100%
-      justify-content: center
-      padding: 15px 0
-      margin: -0.375px 0
-      border: 0.35px solid rgba(#FFC200, .7)
-        top: none
-        bottom: none
+      display: flex
+      align-content: flex-start
+      flex-wrap: wrap
+      justify-content: flex-start
+      padding: 24px 33px
+      margin: 0
+      border: none
+      li
+        width: 50%
+        margin: 0 0 7px 0
+        &:first-child
+          order: -6
+        &:nth-child(2)
+          order: -3
+        &:nth-child(3)
+          order: -5
+        &:nth-child(5)
+          order: -2
+        &:nth-child(6)
+          order: -4
+        &:last-child
+          order: -1
 
     .phone
       width: fit-content
 
   .footer-wrapper
     flex-wrap: wrap
+    border: none
 
   .footer-box
-    border: 0.35px solid rgba(#FFC200, .7)
-    margin: -0.375px 0
-    padding: 20px 0
+    border: none
+    margin: 0
+    padding: 0 33px 50px
     width: 100%
     justify-content: center
     align-items: center
@@ -222,12 +242,12 @@
     max-width: none
 
   .reviews-box
-    flex-direction: column
-    align-items: center
+    padding: 23px 20px
+    &__photo
+      max-width: 150px
     &__body
-      padding: 0
-      margin: 20px 0 0
-      width: 100%
+      width: calc(100% - 150px)
+      padding: 0 0 0 11px
     &__company
       margin: 0 0 20px
     .position
@@ -322,15 +342,61 @@
 
 
 @media only screen and (max-width: 992px)
-  .competencies-box h3
-    min-height: auto
+  .title-wrapper
+    padding: 0
+
+    h2
+      margin: 0
+    &__box
+      border: none
+        left: 0.5px solid #000
+      min-height: auto
+      margin: 0
+      padding: 15px 0
+      width: 100%
+
+  .contacts
+    margin: 0
+    .title-wrapper h2
+      margin: 13px 0 20px
+
+    .title-wrapper__box
+      height: 100%
+      margin: 0 -15px 0 15px
+      padding: 33px 0
+      align-items: flex-start
+      border: none
+        left: 0.5px solid #000000
+
+    .title-wrapper
+      margin: 0
+    .list-social
+      justify-content: center
+      flex-direction: column
+      flex-wrap: nowrap
+      li
+        margin: 0 0 16px
+        &:last-child
+          margin: 0
+        a
+          width: 40px
+          height: 40px
+          min-width: 40px
+
+
+  .contacts-box-col
+    margin-bottom: 0
+    margin-top: 30px
 
   .contacts-box-center, .contacts-box-end
     margin: 0
 
   .contacts-box
     line-height: normal
-
+    h3, h4
+      margin: 0 0 4px
+    p
+      margin: 0 0 20px
     a
       margin: 0 0 3px
 
@@ -338,24 +404,9 @@
     .menu
       line-height: 1.4
 
-  .competencies
-    .title-wrapper__box
-      margin: 0
-      width: 100%
-
-
-  .title-wrapper__box
-    border: none
-    min-height: auto
-    padding: 20px 0
+  .competencies .title-wrapper__box
     margin: 0
-    width: 100%
 
-  .title-wrapper
-    padding: 20px 0 0
-
-    h2
-      margin: 0 auto 20px
 
   h2
     font-size: 30px
@@ -366,17 +417,32 @@
   .callback h2
     font-size: 50px
 
-  .links-bottom
-    margin: 0 auto
 
   .reviews
     padding: 0 0 70px
+    .links-bottom
+      margin: 0 auto
 
   .reviews-slider
     margin: 50px 0 0
 
   .trust-us
     padding: 0 0 60px
+    h2
+      padding: 13px 0 15px
+    .title-wrapper__box
+      padding: 14px 0
+      position: relative
+      border: none
+      &:before
+        content: ''
+        position: absolute
+        top: 0
+        width: calc(100% + 30px)
+        height: 0.5px
+        background: #000
+        left: 50%
+        transform: translate(-50%,0)
 
   .partners-section
     margin: 30px 0 0
@@ -385,25 +451,59 @@
 
   .cases
     h2
-      width: 100%
-      text-align: center
+      width: calc(100% - 80px)
+      padding: 13px 18px 18px
+      border-right: 0.5px solid #000000
+      margin: 0 auto 0 0
+    .links-bottom
+      transform: rotate(-90deg)
+    .title-wrapper__box
+      border: none
+      padding: 13px 17px
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translate(-50%,0)
+        width: calc(100% + 30px)
+        height: .5px
+        background: #000
+
+  .links-bottom
+    width: 60px
+    height: 60px
+    min-width: 60px
+    padding: 15px
 
   .stages-work
     h2
-      margin: 0 auto 20px 0
+      padding: 13px 0 15px 18px
+      border-right: 0.5px solid #000000
+      width: calc(100% - 70px)
+      margin: 0 auto 0 0
     .links-right
-      margin: 0 0 20px
+      margin: 0
+    .title-wrapper__box
+      width: calc(100% + 34px)
+      margin: 0 -17px
+
+  .links-right
+    width: 50px
+    height: 50px
+    min-width: 50px
+    padding: 15px
 
   .competencies-box
     width: 50%
+    h3
+      min-height: auto
 
   .advantages-wrapper
     border: none
     padding: 30px 20px
 
-  .btn-download
-    margin: 20px auto
-    height: auto
 
   .home
     padding: 60px 0 0
@@ -418,31 +518,68 @@
 
   .home-content
     text-align: center
-    padding: 0
-    margin: 20px 0 0
+    padding: 23px 18px 0
+    margin: 25px 0 0
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      width: calc(100% + 30px)
+      height: 0.35px
+      background: rgba(255, 194, 0, 0.7)
+      left: 50%
+      transform: translate(-50%,0)
+    &:before
+      top: 0
+
     h3
       font-size: 30px
+      margin: 0 0 30px
+      text-align: left
+      font-weight: 500
+      padding: 0 120px 0 0
     .btn
-      margin: 20px auto
-      padding: 15px 30px
+      margin: 0 auto
+      padding: 15px 50px
       font-size: 16px
 
+  .header-box
+    padding: 12px
+    margin: 30px 0 0
+    border: none
+      top: 0.35px solid rgba(255, 194, 0, 0.7)
+    .list-social
+      margin: 0 auto
+      justify-content: center
+      li
+        margin: 0 38px 0 0
+        &:last-child
+          margin: 0
+        a
+          fill: #fff
+          border: 1px solid #fff
+
+
+  .btn-download
+    position: absolute
+    top: 22px
+    right: 18px
+    width: 90px
+    height: 90px
+
   .advantages
-    margin: 50px 0 0
+    margin: 0
 
   header
-    .menu
+    .menu, .header-box
       display: none
 
   .btn-burger
     display: flex
-
-  .header-box
-    margin: 0 auto
-    border: none
+    margin: auto
 
   .header-wrapper
-    min-height: 90px
+    min-height: auto
 
   .category-work-item
     border-top: 0.75px solid #000
@@ -454,15 +591,31 @@
     width: 500px
 
   .header-text
-    display: none
+    width: calc(100% - 59px)
+    text-align: left
+    padding: 16px 18px
+    margin: 0 auto 0 0
+    border:
+      right: 0.35px solid rgba(255, 194, 0, 0.7)
+    p
+      margin: 0
 
-  .community-item .item-hover
-    width: calc(100% - 10px)
+  .community-item
+    .item-hover
+      width: calc(100% - 10px)
+
+  .community
+    .links-bottom
+      margin: 0 auto
+
+  .news
+    h2
+      padding: 15px 0
+      margin: 0 auto 0 0
+      width: calc(100% - 70px)
+      border-right: 0.5px solid #000000
 
 @media only screen and (max-width: 768px)
-  .contacts-box h3, .contacts-box h4
-    margin: 0 0 15px
-
   .mb-40
     margin-bottom: 30px
 
@@ -481,11 +634,7 @@
     padding: 20px
     margin: 0 0 20px
 
-  .links-bottom
-    width: 60px
-    height: 60px
-    min-width: 60px
-    padding: 15px
+
 
   .community-item
     h3
@@ -528,9 +677,13 @@
       padding: 0 0 0 6px
 
   .partners-wrapper
+    margin: 17px 0 25px
     .partners-box
-      &:last-child, &:first-child
-        margin: 0 auto
+      height: 23px
+      padding: 0 5px
+    .partners-box-js
+      height: 23px
+
 
   .stages-work-slider-item
     width: 300px
@@ -538,15 +691,35 @@
     &__icon
       max-width: 60px
 
+  .contacts-box-col
+    margin-bottom: 0
+    &:last-child
+      margin-bottom: 39px
+
+  .reviews
+    padding: 0 0 50px
+
 @media only screen and (max-width: 576px)
-  .contacts .list-social
-    justify-content: center
+  .contacts
+    .title-wrapper
+      padding: 13px 0
+      .container
+        padding: 0 33px
+      h2
+        margin: 0
+    .list-social
+      li
+        a
+          width: 22px
+          height: 22px
+          min-width: 22px
+          padding: 5px
 
-    li
-      margin: 0 10px 10px 0
-
-      &:last-child
-        margin: 0 10px 10px 0
+  .contacts-box
+    font-size: 12px
+    padding: 0 0 0 18px
+    h3, h4
+      font-size: 12px
 
   .callback-wrapper
     padding: 0
@@ -555,14 +728,19 @@
     padding: 50px 0
 
   .callback
+    padding: 41px 0 39px
     h2
-      font-size: 40px
+      font-size: 50px
+
+  .callback-content
+    margin: 0 0 25px
+    padding: 0 18px
+    .box-text
+      font-size: 14px
 
   .subtitle
-    font-size: 22px
+    font-size: 33px
 
-  .callback-box
-    padding: 20px
 
   h2
     font-size: 30px
@@ -574,40 +752,71 @@
     width: 100%
     height: auto
 
-  .links-right
-    width: 60px
-    height: 60px
-    min-width: 60px
-    padding: 17px
-
 
   .competencies-wrapper
     margin: 40px 0 0
 
   .advantages-box
-    margin: 0 0 20px
-    text-align: center
-    width: 100%
-
+    width: 33.3%
     p
       padding: 0
 
   .advantages-wrapper
-    padding: 20px 0
+    padding: 10px 18px
     flex-wrap: wrap
 
   .subtitle-logo, .home-content h3
     font-size: 22px
 
-  .home .logo
-    max-width: 220px
+  .home
+    padding: 33px 0 0
+    .logo
+      max-width: 244px
+
+  .btn-download
+    width: 74px
+    height: 74px
+    img
+      max-width: 16px
+
+  .home-content
+    h3
+      padding: 0
+      max-width: 200px
+
+  .trust-us
+    padding: 0 0 30px
+
+  .trust-us-slider
+    margin: 0
+
+    .mb-40
+      margin: 0 auto
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px)
+  .title-wrapper__box
+    font-size: 9px
+    h3
+      font-size: 9px
+
+  .links-bottom
+    width: 29px
+    height: 29px
+    padding: 8px
+    min-width: 29px
+    border-width: 0.5px
+
   .form-group
     .checkbox
-      margin: 0 0 20px
-      width: 100%
+      font-size: 6px
+      max-width: 100px
+
+  .checkbox-custom
+    width: 8px
+    height: 8px
+    min-width: 8px
+    margin: 0 5px 0 0
 
   .quote
     padding: 0 0 0 30px
@@ -615,17 +824,32 @@
       width: 25px
       height: 25px
 
-  .competencies-box
-    width: 100%
 
   .header-box
     display: none
+    .list-social
+      li
+        a
+          width: 30px
+          height: 30px
+          min-width: 30px
+          padding: 7px 8px
+          img
+            max-height: 100%
+
+  .header-text
+    padding: 16px 0 16px 18px
+    font-size: 9px
+    width: calc(100% - 48px)
+    p
+      max-width: 193px
 
   .btn-burger
-    margin: auto 0 auto auto
+    width: 18px
+    height: 10px
 
   .header-wrapper
-    min-height: 70px
+    min-height: auto
 
   .item-hover__img
     height: 120px
@@ -634,21 +858,284 @@
   .item-hover__img-icon
     max-width: 50px
 
-@media only screen and (max-width: 420px)
-  .form-group
-    label
-      width: 100%
+  footer
+    .logo
+      img
+        max-width: 82px
+    .menu
+      font-size: 12px
+    .phone
+      font-size: 16px
+      padding: 12px 18px 12px 24px
 
-  .callback h2
-    font-size: 30px
+  .callback-box
+    padding: 30px
 
-  .reviews-box__photo
+  input, textarea, select
+    font-size: 8px
+    height: 23px
+    padding: 10px 8px 5px
+
+  textarea
+    height: 65px
+    padding: 10px 8px
+
+  label
+    margin: 0 0 7px
+
+  .label-file
+    margin: 0 0 15px
+    padding: 7px 7px 9px
+    strong
+      font-size: 8px
+    &__text
+      span
+        font-size: 8px
+        max-width: 180px
+
+  .btn
+    padding: 4.5px 23px
+    font-size: 9px
+
+  .form-callback button
+    padding: 4.5px 23px
+
+  h2
+    font-size: 18px
+
+  .advantages-wrapper
+    justify-content: space-between
+    padding: 10px 0
+    max-width: 233px
     width: 100%
+    margin: 0 auto
+
+  .advantages-box
+    font-size: 6px
+    max-width: 62px
+    width: 100%
+    &__number
+      font-size: 25px
+    p
+      max-width: 75px
+
+  .home-content
+    .btn
+      padding: 9px 39px
+      font-size: 15px
+    h3
+      font-size: 20px
+
+  .title-wrapper
+    h2
+      padding-left: 18px
+
+  .competencies-wrapper
+    margin: 0 -15px
+    width: calc(100% + 30px)
+
+  .competencies-box
+    padding: 22px 24px
+    width: 100%
+    h3
+      font-size: 14px
+      margin: 24px 0 11px
+      padding: 0 11px
+    .box-text
+      font-size: 10px
+      padding: 14px 11px 5px
+    &:before
+      width: 14px
+      height: 14px
+
+  .competencies .title-wrapper__box
+    width: 59px
+
+  .links-right
+    width: 30px
+    min-width: 30px
+    height: 30px
+    padding: 8px
+    border: 0.5px solid #000000
+
+  .stages-work
+    margin: 0 0 20px
+    h2
+      width: calc(100% - 45px)
+
+  .category-work-item
+    padding: 24px 34px 35px
+    font-size: 10px
+    h3
+      font-size: 14px
+      margin: 0 0 10px
+    &:before
+      top: 20px
+      right: 18px
+      width: 14px
+      height: 14px
 
   .stages-work-slider
+    margin: 20px 0 0
     .slide
       margin: 0
       padding: 0 15px
 
   .stages-work-slider-item
     width: 100%
+    height: 150px
+
+  .stages-work-slider-item__icon
+    max-width: 54px
+
+  .slider-nav
+    margin: 20px 0 0
+
+  .slick-dots
+    li
+      width: 3px
+      height: 3px
+      margin: 0 4px 0 0
+
+  .slick-arrow
+    width: 17px
+    height: 12px
+
+  .section-wrapper
+    padding: 10px 0 32px
+    .slider-nav
+      margin: 28px 0 0
+
+  .cases
+    h2
+      width: calc(100% - 45px)
+    .title-wrapper__box h3
+      font-size: 9px
+
+  .cases-item
+    min-height: 256px
+    padding: 20px 36px
+    justify-content: center
+    h3
+      font-size: 20px
+      margin: 0 0 14px
+    .box-text
+      font-size: 10px
+
+  .trust-us
+    padding: 0 0 39px
+    .title-wrapper
+      margin: 0 0 24px
+    .title-wrapper__box
+      font-size: 9px
+      padding: 13px 18px
+
+  .trust-us-box
+    max-width: 250px
+    margin: 0 auto
+    font-size: 10px
+    .position
+      min-height: auto
+    &__body
+      padding: 23px 25px 26px
+    h3
+      font-size: 16px
+      margin: 0 0 13px
+    &__footer
+      padding: 18px 0 0
+      margin: 13px 0 0
+
+  .links-contacts
+    width: 28px
+    height: 28px
+    min-width: 28px
+    margin: 0 0 0 17px
+    padding: 7px
+
+  .partners-section
+    h3
+      margin: 0 0 20px
+      font-size: 18px
+      padding-left: 18px
+
+  .reviews
+    padding: 0 0 30px
+
+  .reviews-slider
+    margin: 34px 0 0
+
+  .reviews-box
+    &__photo
+      max-width: 90px
+    &__body
+      width: calc(100% - 90px)
+    &__company
+      margin: 0 0 11px
+      font-size: 10px
+    h3
+      font-size: 12px
+      margin: 0 0 10px
+    .position
+      font-size: 10px
+      margin: 0 0 6px
+
+  .quote
+    padding: 0 0 0 17px
+    font-size: 9px
+    line-height: normal
+    max-height: 54px
+    overflow: hidden
+    &:before
+      width: 12px
+      height: 12px
+
+  .link-modal-reviews
+    display: block
+
+  .news
+    padding: 0 0 70px
+    h2
+      width: calc(100% - 45px)
+
+  .news-slider
+    margin: 20px 0 0
+
+  .news-card
+    &__img
+      height: 150px
+    &__body
+      height: calc(100% - 150px)
+      padding: 25px 30px 32px
+      &:before
+        width: 14px
+        height: 14px
+        top: 16px
+        right: 18px
+    &__date
+      margin: 30px 0 0
+      font-size: 10px
+    .box-text
+      font-size: 9px
+      line-height: normal
+    h3
+      font-size: 14px
+      margin: 0 0 10px
+
+  .community
+    .section-wrapper
+      padding: 26px 0 16px
+
+  .community-item
+    padding: 40px 45px 20px
+    justify-content: center
+    font-size: 12px
+    line-height: normal
+    &:hover
+      justify-content: flex-start
+
+@media only screen and (max-width: 420px)
+  .form-group
+    label
+      width: 100%
+
+

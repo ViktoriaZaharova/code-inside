@@ -64,7 +64,7 @@ $('.reviews-slider').slick({
     nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 900,
             settings: {
                 slidesToShow: 1,
             }
@@ -121,7 +121,7 @@ $('.cases-slider').slick({
             settings: {
                 slidesToShow: 2,
             }
-        },{
+        }, {
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
@@ -141,7 +141,7 @@ $('.stages-work-slider').slick({
     centerMode: true,
     responsive: [
         {
-            breakpoint: 420,
+            breakpoint: 480,
             settings: {
                 variableWidth: false,
                 centerMode: false,
@@ -151,4 +151,21 @@ $('.stages-work-slider').slick({
     ]
 });
 
+
+// slick active
+$(window).on('load resize', function () {
+    if ($(window).width() < 576) {
+        $('.trust-us-slider:not(.slick-initialized)').slick({
+            dots: true,
+            appendArrows: '.trust-us-slider-nav',
+            appendDots: '.trust-us-slider-nav',
+            prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
+            nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+            slidesToShow: 1,
+        });
+    } else {
+        $(".trust-us-slider.slick-initialized").slick("unslick");
+    }
+});
+// slick active
 

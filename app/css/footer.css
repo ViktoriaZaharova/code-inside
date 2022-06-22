@@ -89,5 +89,61 @@ footer {
     margin: 0 16px 0 0; }
 
 /*==========  footer end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  section modal ==========*/
+.modal-dialog {
+  max-width: 320px;
+  margin: auto; }
+
+.modal-content {
+  border: none;
+    border-radius: 0;
+  position: relative; }
+  .modal-content .reviews-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .modal-content .reviews-box .quote {
+      max-height: none;
+      overflow: visible;
+      margin: 24px 0 0; }
+      .modal-content .reviews-box .quote p {
+        margin: 0 0 15px; }
+        .modal-content .reviews-box .quote p:last-child {
+          margin: 0; }
+    .modal-content .reviews-box .position {
+      margin: 0; }
+
+.modal-header {
+  border: none;
+  padding: 0; }
+
+.close {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+    border-radius: 0;
+  top: 22px;
+  right: 21px;
+  margin: 0;
+  opacity: 1;
+  text-shadow: none;
+  position: absolute;
+  z-index: 1;
+  stroke: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.modal-body {
+  padding: 0; }
+
+/*==========  section modal end  ==========*/
