@@ -13,7 +13,8 @@
   .callback-wrapper {
     padding: 0 40px; }
   .subtitle-logo {
-    font-size: 40px; }
+    font-size: 40px;
+    max-width: 435px; }
   .home-content h3 {
     font-size: 60px; }
   .home .logo {
@@ -93,7 +94,9 @@
     font-size: 16px; }
   .home .logo {
     max-width: 400px;
-    margin: 0; } }
+    margin: 0; }
+  .subtitle-logo {
+    max-width: 400px; } }
 
 @media only screen and (max-width: 1300px) {
   .subtitle-logo {
@@ -450,7 +453,8 @@
               justify-content: center;
       margin: 0 auto; }
   .subtitle-logo {
-    text-align: center; }
+    text-align: center;
+    margin: 10px auto 0; }
   .home-content {
     text-align: center;
     padding: 23px 18px 0;
@@ -652,6 +656,8 @@
     padding: 33px 0 0; }
     .home .logo {
       max-width: 244px; }
+  .subtitle-logo {
+    max-width: 244px; }
   .btn-download {
     width: 74px;
     height: 74px; }
@@ -769,6 +775,8 @@
   .home .logo {
     max-width: none;
     padding: 0 18px; }
+  .subtitle-logo {
+    max-width: none; }
   .header-box .list-social {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
