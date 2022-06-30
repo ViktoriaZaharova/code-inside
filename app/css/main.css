@@ -153,14 +153,6 @@
     background: url("../img/decor.svg") no-repeat center;
       background-size: 100%;
     opacity: 0; }
-  .competencies-box:hover {
-    background: #FFFFFF; }
-    .competencies-box:hover:before {
-      opacity: 1; }
-    .competencies-box:hover .box-text {
-      background: #FFC200; }
-    .competencies-box:hover .icon-decor:before {
-      opacity: 1; }
   .competencies-box .box-text {
     padding: 17px 12px 35px;
     font-size: 12px;
@@ -430,15 +422,6 @@
     background: url("../img/decor.svg") no-repeat center;
       background-size: 100%;
     opacity: 0; }
-  .cases-item:hover {
-    padding-top: 85px;
-    background: #FFC200; }
-    .cases-item:hover:before {
-      opacity: 1; }
-    .cases-item:hover .item-hover {
-      display: block; }
-    .cases-item:hover .box-text {
-      display: none; }
 
 .item-hover {
   max-width: 390px;
@@ -814,19 +797,6 @@
     right: 36px;
     opacity: 0;
     position: absolute; }
-  .community-item:hover {
-    padding-top: 95px;
-    background: #FFC200; }
-    .community-item:hover .box-text {
-      display: none; }
-    .community-item:hover .item-hover {
-      display: block; }
-    .community-item:hover:before {
-      opacity: 1; }
-    .community-item:hover .community-item__logo {
-      -webkit-filter: brightness(0) invert(1);
-              filter: brightness(0) invert(1);
-      margin: 0 0 35px; }
   .community-item h3 {
     font-weight: bold;
     margin: 0 0 29px;
