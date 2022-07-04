@@ -312,9 +312,6 @@
         margin: 0 38px 0 0; }
         .header-box .list-social li:last-child {
           margin: 0; }
-        .header-box .list-social li a {
-          fill: #fff;
-          border: 1px solid #fff; }
   .title-wrapper {
     padding: 0; }
     .title-wrapper h2 {
@@ -332,8 +329,8 @@
       margin: 13px 0 20px; }
     .contacts .title-wrapper__box {
       height: 100%;
-      margin: 0 -15px 0 15px;
-      padding: 33px 0;
+      margin: 0 0 0 auto;
+      padding: 33px 0 33px 15px;
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
@@ -358,10 +355,7 @@
         .contacts .list-social li a {
           width: 40px;
           height: 40px;
-          min-width: 40px;
-          padding: 10px; }
-          .contacts .list-social li a img {
-            max-height: 100%; }
+          min-width: 40px; }
   .contacts-box-col {
     margin-bottom: 0;
     margin-top: 30px; }
@@ -636,21 +630,7 @@
   .contacts .list-social li a {
     width: 22px;
     height: 22px;
-    min-width: 22px;
-    padding: 3px; }
-  .vk-icon, .in-icon, .r-icon {
-    max-width: 10px; }
-  .tg-icon {
-    max-width: 10px;
-    height: 8px; }
-  .vc-icon {
-    max-width: 13px; }
-  .habr-icon {
-    max-width: 7px; }
-  .dzen-icon {
-    max-width: 11.5px; }
-  .hh-icon {
-    max-width: 13px; }
+    min-width: 22px; }
   .contacts-box {
     font-size: 12px;
     padding: 0 0 0 18px; }
@@ -714,9 +694,9 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .title-wrapper__box {
-    font-size: 9px; }
+    font-size: 14px; }
     .title-wrapper__box h3 {
-      font-size: 9px; }
+      font-size: 16px; }
   .links-bottom {
     width: 29px;
     height: 29px;
@@ -746,16 +726,13 @@
     .header-box .list-social li a {
       width: 30px;
       height: 30px;
-      min-width: 30px;
-      padding: 7px 8px; }
-      .header-box .list-social li a img {
-        max-height: 100%; }
+      min-width: 30px; }
   .header-text {
-    padding: 16px 0 16px 18px;
-    font-size: 9px;
+    padding: 13.5px 0 13.5px 18px;
+    font-size: 12px;
     width: calc(100% - 44px); }
     .header-text p {
-      max-width: 193px; }
+      max-width: 265px; }
   .btn-burger {
     width: 38px;
     height: 42px;
@@ -812,7 +789,7 @@
     max-width: 62px;
     width: 100%; }
     .advantages-box__number {
-      font-size: 25px; }
+      font-size: 40px; }
     .advantages-box p {
       max-width: 75px; }
   .home .logo {
@@ -856,7 +833,7 @@
     padding: 0 18px;
     margin: 10px auto 0; }
   .title-wrapper h2 {
-    padding-left: 18px; }
+    padding-left: 20px; }
   .competencies-wrapper {
     margin: 0 -15px;
     width: calc(100% + 30px); }
@@ -867,11 +844,11 @@
       border-bottom: 0.75px solid #000000;
     margin: 0; }
     .competencies-box h3 {
-      font-size: 14px;
+      font-size: 16px;
       margin: 24px 0 11px;
       padding: 0 11px; }
     .competencies-box .box-text {
-      font-size: 10px;
+      font-size: 14px;
       padding: 14px 11px 5px; }
     .competencies-box:before {
       width: 14px;
@@ -890,12 +867,12 @@
       width: calc(100% - 45px); }
   .category-work-item {
     padding: 24px 34px 35px;
-    font-size: 10px;
+    font-size: 14px;
     margin: 0;
     border: none;
       border-top: 0.75px solid #000; }
     .category-work-item h3 {
-      font-size: 14px;
+      font-size: 16px;
       margin: 0 0 10px; }
     .category-work-item:before {
       top: 20px;
@@ -928,7 +905,7 @@
   .cases h2 {
     width: calc(100% - 45px); }
   .cases .title-wrapper__box h3 {
-    font-size: 9px; }
+    font-size: 14px; }
   .cases-item {
     min-height: 256px;
     padding: 20px 36px;
@@ -939,18 +916,20 @@
       font-size: 20px;
       margin: 0 0 14px; }
     .cases-item .box-text {
-      font-size: 10px; }
+      font-size: 14px; }
+    .cases-item:hover {
+      padding-top: 20px; }
   .trust-us {
     padding: 0 0 39px; }
     .trust-us .title-wrapper {
       margin: 0 0 24px; }
     .trust-us .title-wrapper__box {
-      font-size: 9px;
+      font-size: 14px;
       padding: 13px 18px; }
   .trust-us-box {
     max-width: none;
     margin: 0 auto;
-    font-size: 10px; }
+    font-size: 14px; }
     .trust-us-box .position {
       min-height: auto; }
     .trust-us-box__body {
@@ -981,16 +960,16 @@
     width: calc(100% - 90px); }
   .reviews-box__company {
     margin: 0 0 11px;
-    font-size: 10px; }
+    font-size: 14px; }
   .reviews-box h3 {
-    font-size: 12px;
+    font-size: 16px;
     margin: 0 0 10px; }
   .reviews-box .position {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 0 6px; }
   .quote {
     padding: 0 0 0 17px;
-    font-size: 9px;
+    font-size: 14px;
     line-height: normal;
     max-height: 54px;
     overflow: hidden; }
@@ -1017,12 +996,12 @@
       right: 18px; }
   .news-card__date {
     margin: 30px 0 0;
-    font-size: 10px; }
+    font-size: 14px; }
   .news-card .box-text {
-    font-size: 9px;
+    font-size: 14px;
     line-height: normal; }
   .news-card h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 10px; }
   .community .section-wrapper {
     padding: 26px 0 16px; }
@@ -1031,8 +1010,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 12px;
+    font-size: 14px;
     line-height: normal; }
+    .community-item:hover {
+      padding-top: 40px; }
   .contacts .title-wrapper h2 {
     padding: 0; } }
 
@@ -1048,34 +1029,4 @@
     .competencies-box:hover .box-text {
       background: #FFC200; }
     .competencies-box:hover .icon-decor:before {
-      opacity: 1; }
-  .cases-item:hover {
-    padding-top: 85px;
-    background: #FFC200; }
-    .cases-item:hover:before {
-      opacity: 1; }
-    .cases-item:hover .item-hover {
-      display: block; }
-    .cases-item:hover .box-text {
-      display: none; }
-  .community-item:hover {
-    padding-top: 95px;
-    background: #FFC200; }
-    .community-item:hover .box-text {
-      display: none; }
-    .community-item:hover .item-hover {
-      display: block; }
-    .community-item:hover:before {
-      opacity: 1; }
-    .community-item:hover .community-item__logo {
-      -webkit-filter: brightness(0) invert(1);
-              filter: brightness(0) invert(1);
-      margin: 0 0 35px; } }
-
-@media only screen and (min-width: 480px) and (max-width: 1400px) {
-  .community-item:hover {
-    padding-top: 40px; } }
-
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
-  .cases-item:hover {
-    padding-top: 35px; } }
+      opacity: 1; } }

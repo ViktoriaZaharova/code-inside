@@ -422,6 +422,15 @@
     background: url("../img/decor.svg") no-repeat center;
       background-size: 100%;
     opacity: 0; }
+  .cases-item:hover {
+    padding-top: 85px;
+    background: #FFC200; }
+    .cases-item:hover:before {
+      opacity: 1; }
+    .cases-item:hover .item-hover {
+      display: block; }
+    .cases-item:hover .box-text {
+      display: none; }
 
 .item-hover {
   max-width: 390px;
@@ -680,7 +689,7 @@
   margin: 13px 0 0 auto;
   display: none;
   text-decoration: underline;
-  font-size: 8px;
+  font-size: 14px;
   color: #808080;
   text-align: right; }
 
@@ -830,6 +839,19 @@
             transform: translate(-50%, 0); }
   .community-item .item-hover__img {
     height: 223px; }
+  .community-item:hover {
+    padding-top: 95px;
+    background: #FFC200; }
+    .community-item:hover .box-text {
+      display: none; }
+    .community-item:hover .item-hover {
+      display: block; }
+    .community-item:hover:before {
+      opacity: 1; }
+    .community-item:hover .community-item__logo {
+      -webkit-filter: brightness(0) invert(1);
+              filter: brightness(0) invert(1);
+      margin: 0 0 35px; }
 
 /*==========  section community end  ==========*/
 /*==========  section callback ==========*/

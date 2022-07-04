@@ -139,6 +139,8 @@ $('.stages-work-slider').slick({
     nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
     variableWidth: true,
     centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
         {
             breakpoint: 480,

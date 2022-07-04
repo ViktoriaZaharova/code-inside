@@ -430,7 +430,15 @@
     background: url("../img/decor.svg") no-repeat center
       size: 100%
     opacity: 0
-
+  &:hover
+    padding-top: 85px
+    background: $accent
+    &:before
+      opacity: 1
+    .item-hover
+      display: block
+    .box-text
+      display: none
 
 
 .item-hover
@@ -646,7 +654,7 @@
   margin: 13px 0 0 auto
   display: none
   text-decoration: underline
-  font-size: 8px
+  font-size: 14px
   color: #808080
   text-align: right
 
@@ -783,7 +791,18 @@
     transform: translate(-50%,0)
   .item-hover__img
     height: 223px
-
+  &:hover
+    padding-top: 95px
+    background: #FFC200
+    .box-text
+      display: none
+    .item-hover
+      display: block
+    &:before
+      opacity: 1
+    .community-item__logo
+      filter: brightness(0) invert(1)
+      margin: 0 0 35px
 
 /*==========  section community end  ==========*/
 
