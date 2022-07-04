@@ -1013,7 +1013,10 @@
     font-size: 14px;
     line-height: normal; }
     .community-item:hover {
-      padding-top: 40px; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-top: 50px; }
   .contacts .title-wrapper h2 {
     padding: 0; } }
 
