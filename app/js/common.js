@@ -130,6 +130,16 @@ $('.cases-slider').slick({
     ]
 });
 
+$('.cases-row-slider').slick({
+    slidesToShow: 1,
+    dots: true,
+    appendArrows: '.cases-row-slider__nav',
+    appendDots: '.cases-row-slider__nav',
+    prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+});
+
+
 $('.stages-work-slider').slick({
     slidesToShow: 3,
     dots: true,
