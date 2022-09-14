@@ -135,7 +135,7 @@
     border-top: 1px solid #000
     height: 100%
     transition: .3s ease
-  h3
+  .competencies-box__title
     font-weight: 600
     font-size: 18px
     min-height: 44px
@@ -143,6 +143,9 @@
     padding: 0 11px
     display: flex
     align-items: flex-end
+    color: #000
+    &:hover
+      color: $accent
   &__icon
     display: flex
     align-items: center
@@ -283,6 +286,7 @@
   padding: 66px 40px 57px 72px
   background: #fff
   margin: -0.375px
+  color: #000000
   &:before
     content: ''
     position: absolute
@@ -295,6 +299,7 @@
     opacity: 0
   &:hover
     background: $accent
+    color: #000000
     &:before
       opacity: 1
   h3
@@ -322,74 +327,102 @@
     opacity: .2
 
 
-//.stages-work-wrapper
-//  margin: 60px 0 0
-//  width: 100%
-//  display: flex
-//  align-items: flex-start
-//  flex-wrap: wrap
-//  justify-content: space-between
+.stages-work-wrapper
+  margin: 100px 0 0
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
   //h3
   //  width: 100%
   //  margin: 0 0 72px
   //  font-size: 34px
   //  font-weight: bold
 
-//.stages-work-box
-//  width: calc(20% - 30px)
-//  margin: 0 0 40px
-//  &__head
-//    width: 100%
-//    padding: 0 20px 27px
-//    border-bottom: 1px solid #000
-//  &__number
-//    font-size: 126px
-//    font-weight: bold
-//    color: $accent
-//    display: flex
-//    align-items: center
-//    justify-content: space-between
-//    width: 100%
-//  h4
-//    font-size: 18px
-//    font-weight: bold
-//    min-height: 36px
-//    line-height: 18px
-//  .btn
-//    padding: 17px 12px
-//    font-size: 18px
-//    width: 100%
-//    border-radius: 35px
-//    margin: 57px 0 0
-//  .box-text
-//    font-size: 18px
-//    max-width: 244px
-//    p
-//      margin: 0 0 42px
-//      &:last-child
-//        margin: 0
-//    strong
-//      display: block
-//  &__body
-//    padding: 20px 20px 0
+.stages-work-v2
+  .title-wrapper
+    background: #EDEDED
+  .title-wrapper__box
+    border-left: 0.75px solid #000000
+    padding: 60px 69px
+    width: 602px
+  .links-bottom
+    fill: #000
+
+
+.stages-work-box
+  width: calc(20% - 30px)
+  margin: 0 0 40px
+  &__head
+    width: 100%
+    padding: 0 20px 27px
+    border-bottom: 1px solid #000
+  &__number
+    font-size: 126px
+    font-weight: bold
+    color: $accent
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+  h4
+    font-size: 18px
+    font-weight: bold
+    min-height: 36px
+    line-height: 18px
+  .btn
+    padding: 17px 12px
+    font-size: 18px
+    width: 100%
+    border-radius: 35px
+    margin: 57px 0 0
+  .box-text
+    font-size: 18px
+    max-width: 244px
+    p
+      margin: 0 0 42px
+      &:last-child
+        margin: 0
+    strong
+      display: block
+  &__body
+    padding: 20px 20px 0
 
 /*==========  section stages-work end  ==========*/
 
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
 /*==========  section cases ==========*/
+.cases
+  .line-wrapper
+    margin: 0 0 63px
+
+.list-tags
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  font-size: 22px
+  margin: 0 auto 0 0
+  li
+    margin: 0 88px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #000
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        bottom: -14px
+        width: 60px
+        height: 3px
+        background: $accent
+        opacity: 0
+      &.active
+        font-weight: bold
+        &:before
+          opacity: 1
+
 
 .cases-slider
   .slick-track
@@ -627,6 +660,8 @@
   &__company
     color: $accent
     margin: 0 0 40px
+    &:hover
+      color: #000
   h3
     margin: 0 0 20px
     font-size: 34px
@@ -909,3 +944,171 @@
   margin: 0 0 0 auto
 
 /*==========  section contacts end  ==========*/
+
+
+
+
+/*==========  section formats ==========*/
+.formats
+  margin: 0 0 92px
+  .table-responsive
+    overflow: visible
+  .title-wrapper__box
+    width: 602px
+
+.table-formats
+  min-width: 1800px
+  float: right
+  margin: 0
+  tr
+    vertical-align: middle
+  td
+    padding: 27px 0
+    vertical-align: middle
+  td, th
+    &:last-child, &:nth-child(2)
+      width: 602px
+
+  thead
+    th
+      vertical-align: top
+      padding: 47px 69px
+      background: $accent
+      border: 0.75px solid #000000
+        bottom: 0.375px solid #000000
+        top: none
+      position: relative
+      &:first-child
+        background: transparent
+        border:
+          left: none
+        padding-left: 200px
+        vertical-align: middle
+  &__icon
+    margin: 0 auto 17px
+    display: flex
+    align-items: center
+    justify-content: center
+  h3
+    font-weight: bold
+    text-align: center
+    margin: 0 auto 24px
+    font-size: 34px
+  tbody
+    p
+      color: #808080
+      font-size: 29px
+      font-weight: bold
+    span
+      width: 100%
+      max-width: 330px
+      display: inline-block
+      float: right
+    td
+      text-align: center
+      border:
+        right: 0.75px solid #7C7C7C
+        top: 0.75px solid #7C7C7C
+      &:first-child
+        text-align: left
+        padding: 27px 34px 27px 57px
+    tr
+      &:last-child
+        td
+          border-bottom: 0.75px solid #7C7C7C
+
+.home-page
+  padding: 0
+  h1
+    font-size: 87px
+    font-weight: 500
+    margin: 0 0 27px 158px
+
+
+.home-button-animate
+  width: 409px
+  border: 0.35px solid rgba(#FFC200, .7)
+    top: none
+    bottom: none
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  .btn-download
+    margin: auto
+
+.home-title
+  padding: 83px 0 114px
+  width: calc(100% - 409px)
+  border-left: 0.35px solid rgba(#FFC200, .7)
+  .description-text
+    max-width: 562px
+    font-size: 18px
+    margin: 0 144px 0 auto
+
+
+/*==========  section formats end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
