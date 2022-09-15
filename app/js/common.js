@@ -55,11 +55,28 @@ $('.news-slider').slick({
     ]
 });
 
-$('.reviews-slider').slick({
+$('.reviews-slider1').slick({
     slidesToShow: 2,
     dots: true,
-    appendArrows: '.reviews-slider-nav',
-    appendDots: '.reviews-slider-nav',
+    appendArrows: '.reviews-slider-nav1',
+    appendDots: '.reviews-slider-nav1',
+    prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+    responsive: [
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
+
+$('.reviews-slider2').slick({
+    slidesToShow: 2,
+    dots: true,
+    appendArrows: '.reviews-slider-nav2',
+    appendDots: '.reviews-slider-nav2',
     prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
     nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
     responsive: [
@@ -163,6 +180,23 @@ $('.stages-work-slider').slick({
     ]
 });
 
+$('.worth-image').slick({
+    slidesToShow: 1,
+    fade: true,
+    arrows: false,
+    asNavFor: '.worth-content-slider'
+});
+
+$('.worth-content-slider').slick({
+    slidesToShow: 1,
+    fade: true,
+    dots: true,
+    prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+    asNavFor: '.worth-image',
+    appendArrows: '.worth-content-slider__nav',
+    appendDots: '.worth-content-slider__nav'
+});
 
 // slick active
 $(window).on('load resize', function () {

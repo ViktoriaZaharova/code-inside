@@ -180,7 +180,13 @@
     max-width: 550px;
     padding: 30px; }
   .maps-location-markers {
-    padding: 20px 0 0 138px; } }
+    padding: 20px 0 0 138px; }
+  .colleague {
+    padding: 100px 0; }
+    .colleague h2, .colleague .subtitle {
+      font-size: 80px; }
+    .colleague .box-text {
+      font-size: 30px; } }
 
 @media only screen and (max-width: 1200px) {
   h2 {
@@ -476,7 +482,35 @@
       width: 360px;
       height: 190px;
       bottom: -65px;
-      right: 30px; } }
+      right: 30px; }
+  .cases-row:hover .cases-row__body {
+    min-height: auto; }
+  .actual-vacancies-row__hidden {
+    padding: 40px 0 30px; }
+    .actual-vacancies-row__hidden .box-text {
+      padding: 0 0 0 20px;
+      font-size: 20px;
+      line-height: normal; }
+  .actual-vacancies-item {
+    margin: 0 0 40px; }
+    .actual-vacancies-item:last-child {
+      margin: 0; }
+    .actual-vacancies-item h3 {
+      margin: 0 0 20px;
+      font-size: 24px; }
+  .home-carrier {
+    padding: 100px 0; }
+  .hashtag h2 {
+    font-size: 50px; }
+  .worth-content-slider {
+    font-size: 20px; }
+  .worth-content {
+    padding: 90px 50px 50px 0; }
+  .section-image-decor {
+    max-width: 300px; }
+  .worth-content-slider__nav {
+    max-width: 400px;
+    margin: 60px 0 0; } }
 
 @media only screen and (max-width: 992px) {
   header .menu, header .header-box {
@@ -878,7 +912,50 @@
       line-height: normal;
       max-width: 240px; }
       .maps-location-box h2 img {
-        max-width: 30px; } }
+        max-width: 30px; }
+  .colleague {
+    padding: 70px 0; }
+    .colleague h2 {
+      padding: 15px 50px;
+      font-size: 60px; }
+    .colleague .subtitle {
+      padding: 20px 40px;
+      font-size: 60px; }
+    .colleague .box-text {
+      font-size: 24px; }
+    .colleague .btn {
+      font-size: 18px;
+      height: 50px; }
+  .cases-row .links-right {
+    padding: 20px; }
+  .home-carrier {
+    padding: 70px 0; }
+  .logo-carrier {
+    max-width: 300px;
+    margin: 0 auto 40px; }
+  .why-codeinside-wrapper {
+    height: auto; }
+  .btn-play {
+    width: 140px;
+    height: 140px;
+    font-size: 16px; }
+  .competencies .title-wrapper, .worth .title-wrapper {
+    padding: 20px 0; }
+  .worth-image {
+    min-width: auto; }
+    .worth-image__item {
+      min-width: auto;
+      width: 100%; }
+  .worth-content-slider .box-text {
+    max-width: none; }
+  .worth-content-slider__nav {
+    margin: 40px auto 0; }
+  .hashtag {
+    margin: 0 auto 80px; }
+    .hashtag h2 {
+      font-size: 40px; }
+  .worth-content {
+    padding: 70px 0 30px; } }
 
 @media only screen and (max-width: 768px) {
   .mb-40 {
@@ -993,7 +1070,29 @@
   .maps-location-markers {
     display: none; }
   .maps-location {
-    padding: 100px 0; } }
+    padding: 100px 0; }
+  .colleague h2 {
+    font-size: 50px;
+    padding: 10px 30px; }
+  .colleague .subtitle {
+    font-size: 50px;
+    padding: 15px 30px;
+    margin: -10px 19% 0 auto; }
+  .colleague .box-text {
+    font-size: 18px;
+    margin: 30px auto 20px; }
+  .actual-vacancies {
+    margin: 0; }
+  .worth-content-slider__nav {
+    margin: 30px auto 0; }
+  .worth-content-slider {
+    font-size: 16px; }
+  .section-image-decor {
+    max-width: 200px; }
+  .hashtag:before {
+    height: 100%; }
+  .hashtag h2 {
+    font-size: 30px; } }
 
 @media only screen and (max-width: 576px) {
   .contacts .title-wrapper {
@@ -1143,7 +1242,32 @@
         max-width: 20px;
         margin: 0 0 0 10px; }
     .maps-location-box .contacts-box {
-      padding: 0; } }
+      padding: 0; }
+  .colleague h2 {
+    margin: 0 auto 0 0;
+    font-size: 40px; }
+  .colleague .subtitle {
+    margin: -10px 0 0 auto;
+    font-size: 40px; }
+  .actual-vacancies-item .box-text {
+    font-size: 14px; }
+  .actual-vacancies-item h3 {
+    font-size: 16px; }
+  .cases-row__title, .cases-row .name-project {
+    font-size: 16px; }
+  .reviews-box {
+    padding: 10px; }
+  .home-carrier {
+    padding: 60px 0; }
+  .logo-carrier {
+    max-width: 200px; }
+  .why-codeinside {
+    padding: 60px 0; }
+    .why-codeinside h3 {
+      font-size: 16px; }
+  .why-codeinside-wrapper {
+    height: auto;
+    margin: 0 auto 30px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
@@ -1236,8 +1360,8 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 10px 22px;
-    width: 100%; }
-  margin: 15px auto;
+    width: 100%;
+    margin: 15px auto; }
   .advantages-box {
     font-size: 11px;
     max-width: 62px;
@@ -1518,11 +1642,34 @@
     .case-box-row__image img {
       max-width: 80px; }
   .case-box-row .box-text {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .btn-play {
+    width: 80px;
+    height: 80px; }
+  .why-codeinside {
+    padding: 50px 0; }
+  .competencies-box {
+    padding: 17px; }
+  .competencies-box .competencies-box__title {
+    font-size: 15px; }
+  .hashtag {
+    margin: 0 auto 60px; }
+    .hashtag h2 {
+      font-size: 24px;
+      padding: 10px 20px; }
+  .section-image-decor {
+    display: none; } }
 
 @media only screen and (max-width: 420px) {
   .form-group label {
-    width: 100%; } }
+    width: 100%; }
+  .colleague h2, .colleague .subtitle {
+    font-size: 30px; }
+  .colleague .subtitle {
+    padding: 10px 30px; }
+  .colleague .btn {
+    height: 40px;
+    font-size: 16px; } }
 
 @media only screen and (min-width: 480px) {
   .competencies-box:hover {
@@ -1532,4 +1679,30 @@
     .competencies-box:hover .box-text {
       background: #FFC200; }
     .competencies-box:hover .icon-decor:before {
-      opacity: 1; } }
+      opacity: 1; }
+  .more-than-work-box .item-hover {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    height: 210px;
+    margin: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    max-width: 337px;
+    width: 100%;
+    background: #EDEDED;
+    border: none;
+      border-top: 1px solid #000000;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .more-than-work-box:hover {
+    background: #FFC200; }
+    .more-than-work-box:hover .item-hover {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
