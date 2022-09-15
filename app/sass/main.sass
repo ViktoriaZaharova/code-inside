@@ -5,12 +5,15 @@
   background: #000
   color: #fff
   padding: 80px 0 0
+
   .logo
     max-width: 491px
     margin: 0 auto 0 0
+  // margin: 0 auto 0 20px
 
 .subtitle-logo
   margin: 28px 0 0
+  // margin: 28px 0 0 17px
   text-transform: uppercase
   font-weight: 600
   font-size: 49px
@@ -22,18 +25,22 @@
   display: flex
   flex-direction: column
   padding: 0 0 0 35px
+
   h3
     font-size: 65px
     text-transform: uppercase
     margin: auto 0
+
     span
       display: block
+
   .btn
     color: #000
     padding: 18px 46px
     font-size: 20px
     border-radius: 34px
     margin: 0 0 5px
+
     &:hover
       background: $grey
 
@@ -54,16 +61,20 @@
   font-size: 18px
   width: fit-content
   color: #808080
+
   &__number
     color: #333333
     font-size: 127px
     line-height: 155px
     font-weight: 700
     margin: 0 0 -17px
+
   &:last-child
     margin: 0
+
     p
       padding: 0
+
   p
     padding-left: 16px
 
@@ -75,6 +86,7 @@
   position: relative
   width: 138px
   height: 138px
+
   &:before
     content: ''
     position: absolute
@@ -122,6 +134,7 @@
   margin: -0.75px
   background: $grey
   overflow: hidden
+
   &:before
     content: ''
     position: absolute
@@ -139,6 +152,7 @@
     border-top: 1px solid #000
     height: 100%
     transition: .3s ease
+
   .competencies-box__title
     font-weight: 600
     font-size: 18px
@@ -148,8 +162,10 @@
     display: flex
     align-items: flex-end
     color: #000
+
     &:hover
       color: $accent
+
   &__icon
     display: flex
     align-items: center
@@ -158,6 +174,7 @@
     height: 36px
     position: relative
     width: fit-content
+
     img
       max-height: 100%
 
@@ -174,7 +191,7 @@
     width: 29px
     height: 14px
     left: 50%
-    transform: translate(-50%,0)
+    transform: translate(-50%, 0)
     bottom: 6px
 
 .icon-decor2
@@ -182,7 +199,7 @@
     width: 16px
     height: 18px
     left: 50%
-    transform: translate(-50%,0)
+    transform: translate(-50%, 0)
     top: 5px
 
 .icon-decor3
@@ -200,7 +217,7 @@
     height: 15px
     border-radius: 50%
     top: 50%
-    transform: translate(0,-50%)
+    transform: translate(0, -50%)
     right: 4.5px
 
 .icon-decor5
@@ -210,7 +227,7 @@
     background: url("../img/decor-icon5.svg") no-repeat center
       size: 100%
     top: 50%
-    transform: translate(0,-50%)
+    transform: translate(0, -50%)
     right: 5px
 
 .icon-decor6
@@ -236,7 +253,7 @@
     background: url("../img/decor-icon8.svg") no-repeat center
       size: 100%
     top: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
     left: 50%
     border-radius: 50%
 
@@ -246,12 +263,16 @@
   align-items: center
   justify-content: space-between
   width: 100%
+
   .partners-box
     height: 53px
+
     &:first-child
       margin-left: 0
+
     &:last-child
       margin-right: 0
+
   .partners-box-js
     height: 46px
 
@@ -262,6 +283,12 @@
   opacity: .5
   max-width: 102px
   width: 100%
+  filter: grayscale(100%)
+  transition: all 0.2s
+
+  &:hover
+    filter: grayscale(0%)
+    opacity: 1
 
 /*==========  section competencies end  ==========*/
 
@@ -269,12 +296,14 @@
 /*==========  section stages-work ==========*/
 .stages-work
   margin: 0 0 70px
+
   .title-wrapper
     overflow: hidden
 
   .title-wrapper__box
     padding: 0
     border: none
+
     &:before
       display: none
 
@@ -291,6 +320,7 @@
   background: #fff
   margin: -0.375px
   color: #000000
+
   &:before
     content: ''
     position: absolute
@@ -301,11 +331,14 @@
     background: url("../img/decor.svg") no-repeat center
       size: 100%
     opacity: 0
+
   &:hover
     background: $accent
     color: #000000
+
     &:before
       opacity: 1
+
   h3
     margin: 0 0 16px
     font-weight: bold
@@ -314,8 +347,16 @@
 .stages-work-slider
   width: 100%
   margin: 46px 0 0
+
   .slide
     margin: 0 48px
+    opacity: .5
+    filter: grayscale(100%)
+    transition: all 0.2s
+
+    &:hover
+      opacity: 1
+      filter: grayscale(0%)
 
 .stages-work-slider-item
   width: 924px
@@ -347,10 +388,12 @@
 .stages-work-v2
   .title-wrapper
     background: #EDEDED
+
   .title-wrapper__box
     border-left: 0.75px solid #000000
     padding: 60px 69px
     width: 602px
+
   .links-bottom
     fill: #000
 
@@ -358,10 +401,12 @@
 .stages-work-box
   width: calc(20% - 30px)
   margin: 0 0 40px
+
   &__head
     width: 100%
     padding: 0 20px 27px
     border-bottom: 1px solid #000
+
   &__number
     font-size: 126px
     font-weight: bold
@@ -370,26 +415,33 @@
     align-items: center
     justify-content: space-between
     width: 100%
+
   h4
     font-size: 18px
     font-weight: bold
     min-height: 36px
     line-height: 18px
+
   .btn
     padding: 17px 12px
     font-size: 18px
     width: 100%
     border-radius: 35px
     margin: 57px 0 0
+
   .box-text
     font-size: 18px
     max-width: 244px
+
     p
       margin: 0 0 42px
+
       &:last-child
         margin: 0
+
     strong
       display: block
+
   &__body
     padding: 20px 20px 0
 
@@ -406,14 +458,18 @@
   flex-wrap: wrap
   font-size: 22px
   margin: 0 auto 0 0
+
   li
     margin: 0 88px 0 0
+
     &:last-child
       margin: 0
+
     a
       color: #000
       position: relative
       padding: 0 0 14px
+
       &:before
         content: ''
         position: absolute
@@ -423,8 +479,10 @@
         height: 3px
         background: $accent
         opacity: 0
+
       &.active
         font-weight: bold
+
         &:before
           opacity: 1
 
@@ -433,8 +491,10 @@
   .slick-track
     display: flex
     align-items: stretch
+
   .slick-slide
     height: auto
+
   .slick-current
     .cases-item
       border-left: 0.75px solid #000
@@ -455,6 +515,7 @@
     font-weight: bold
     font-size: 34px
     min-height: 124px
+
   .box-text
     font-size: 18px
 
@@ -468,13 +529,17 @@
     background: url("../img/decor.svg") no-repeat center
       size: 100%
     opacity: 0
+
   &:hover
     padding-top: 85px
     background: $accent
+
     &:before
       opacity: 1
+
     .item-hover
       display: block
+
     .box-text
       display: none
 
@@ -489,17 +554,20 @@
   display: none
   transition: .3s ease
   overflow: hidden
+
   &__head
     width: 100%
     display: flex
     align-items: center
     padding: 0 10px 9px
     border-bottom: 0.75px solid #000000
+
     &-close
       width: 6px
       height: 6px
       position: relative
       margin-left: auto
+
       &:before, &:after
         content: ''
         position: absolute
@@ -508,10 +576,13 @@
         width: 1px
         height: 100%
         background: #000
+
       &:before
         transform: rotate(45deg)
+
       &:after
         transform: rotate(135deg)
+
     &-circle
       border: 0.75px solid #000000
         radius: 50%
@@ -519,8 +590,10 @@
       height: 6px
       margin: 0 4px 0 0
       background: #fff
+
       &.bg-accent
         background: $accent
+
   &__body
     margin: 16px 0 0
     background: #EDEDED
@@ -531,10 +604,12 @@
   justify-content: center
   width: 100%
   height: 183px
+
   img
     width: 100%
     height: 100%
     object-fit: cover
+
   .item-hover__img-icon
     width: fit-content
     height: auto
@@ -552,11 +627,13 @@
 /*==========  section trust-us ==========*/
 .trust-us
   padding: 0 0 106px
+
   .title-wrapper
     margin: 0 0 68px
 
 .partners-section
   margin: 50px 0 0
+
   h3
     margin: 0 0 48px
     font-size: 34px
@@ -565,6 +642,7 @@
 .partners-slider
   .slick-slide
     padding: 0 28px
+
   .slick-list
     margin: 0 -28px
 
@@ -575,6 +653,7 @@
   justify-content: center
   height: 73px
   margin: 0 auto
+
   img
     max-height: 100%
 
@@ -582,6 +661,7 @@
   width: 100%
   height: 100%
   border: 0.75px solid #000000
+
   &__photo
     width: 100%
     height: 227px
@@ -589,16 +669,20 @@
     align-items: center
     justify-content: center
     background: #D9D9D9
+
   &__body
     width: 100%
     padding: 16px 25px 38px
+
   h3
     font-weight: 600
     font-size: 22px
     margin: 0 0 20px
+
   .position
     color: #7D7D7D
     min-height: 28px
+
   &__footer
     margin: 20px 0 0
     border-top: 0.75px solid #000000
@@ -620,6 +704,7 @@
   width: 34px
   height: 34px
   min-width: 34px
+
   &:hover
     background: $accent
 
@@ -638,12 +723,15 @@
 
 .reviews-slider
   margin: 107px 0 0
+
   .slick-track
     display: flex
     align-items: stretch
+
   .slick-slide
     padding: 0 12px
     height: auto
+
   .slick-list
     margin: 0 -12px
 
@@ -654,23 +742,29 @@
   display: flex
   align-items: flex-start
   padding: 62px 39px 61px 57px
+
   &__photo
     display: flex
     align-items: center
     justify-content: center
     width: 250px
+
   &__body
     width: calc(100% - 250px)
     padding: 0 0 0 32px
+
   &__company
     color: $accent
     margin: 0 0 40px
+
     &:hover
       color: #000
+
   h3
     margin: 0 0 20px
     font-size: 34px
     font-weight: bold
+
   .position
     color: #7D7D7D
     margin: 0 0 27px
@@ -679,6 +773,7 @@
   position: relative
   line-height: 18px
   padding: 0 0 0 54px
+
   &:before
     content: ''
     position: absolute
@@ -707,8 +802,10 @@
 
 .news-slider
   margin: 60px 0 0
+
   .slick-slide
     padding: 0 36px
+
   .slick-list
     margin: 0 -36px
 
@@ -716,10 +813,12 @@
 .news-card
   width: 100%
   background: #fff
+
   &__body
     width: 100%
     position: relative
     padding: 45px 65px 59px 50px
+
     &:before
       content: ''
       background: url("../img/decor.svg") no-repeat center
@@ -730,27 +829,33 @@
       right: 31px
       opacity: 0
       position: absolute
+
   .box-text
     font-size: 16px
     line-height: 18px
+
   h3
     margin: 0 0 18px
     font-weight: bold
     font-size: 22px
+
   &__img
     width: 100%
     height: 280px
     display: flex
     align-items: center
     justify-content: center
+
     img
       width: 100%
       height: 100%
       object-fit: cover
+
   &:hover
     .news-card__body
       &:before
         opacity: 1
+
   &__date
     margin: 50px 0 0
     text-align: right
@@ -768,8 +873,10 @@
   .slick-track
     display: flex
     align-items: stretch
+
   .slick-slide
     height: auto
+
   .slick-current
     .community-item
       border-left: 0.75px solid #000
@@ -794,6 +901,7 @@
   display: flex
   flex-direction: column
   overflow: hidden
+
   &:before
     content: ''
     background: url("../img/decor.svg") no-repeat center
@@ -809,10 +917,12 @@
     font-weight: bold
     margin: 0 0 29px
     font-size: 34px
+
   .box-text
     max-width: 410px
     width: 100%
     transition: .3s ease
+
   &__logo
     display: flex
     align-items: center
@@ -820,26 +930,34 @@
     max-width: 265px
     height: 70px
     transition: .3s ease
+
     img
       max-width: 100%
       max-height: 100%
+
   .item-hover
     margin: 0
     position: absolute
     left: 50%
     bottom: 0
-    transform: translate(-50%,0)
+    transform: translate(-50%, 0)
+
   .item-hover__img
     height: 223px
+
   &:hover
     padding-top: 95px
     background: #FFC200
+
     .box-text
       display: none
+
     .item-hover
       display: block
+
     &:before
       opacity: 1
+
     .community-item__logo
       filter: brightness(0) invert(1)
       margin: 0 0 35px
@@ -867,6 +985,7 @@
   align-items: center
   flex-wrap: wrap
   padding: 0 156px 0 80px
+
   .box-text
     font-size: 48px
     line-height: 54px
@@ -898,6 +1017,7 @@
   align-items: center
   flex-wrap: wrap
   justify-content: space-between
+
   label
     width: calc(50% - 7.5px)
 
@@ -909,14 +1029,19 @@
 /*==========  section contacts ==========*/
 .contacts
   margin: 0 0 57px
+
   .list-social
     margin: 0 auto
+
     li
       margin: 0 58px 0 0
+
       &:last-child
         margin: 0
+
   .title-wrapper
     margin: 0 0 108px
+
   .title-wrapper__box
     border:
       right: 0.75px solid #000000
@@ -925,20 +1050,26 @@
   font-size: 18px
   line-height: 30px
   width: fit-content
+
   h3
     margin: 0 0 25px
     font-size: 22px
     font-weight: bold
+
   p
     margin: 0 0 33px
+
     &:last-child
       margin: 0
+
   h4
     font-size: 22px
     font-weight: 600
     margin: 0 0 20px
+
   a
     color: #000
+
     &:hover
       color: $accent
 
@@ -956,8 +1087,10 @@
 /*==========  section formats ==========*/
 .formats
   margin: 0 0 92px
+
   .table-responsive
     overflow: visible
+
   .title-wrapper__box
     width: 602px
 
@@ -965,11 +1098,14 @@
   min-width: 1800px
   float: right
   margin: 0
+
   tr
     vertical-align: middle
+
   td
     padding: 27px 0
     vertical-align: middle
+
   td, th
     &:last-child, &:nth-child(2)
       width: 602px
@@ -983,40 +1119,48 @@
         bottom: 0.375px solid #000000
         top: none
       position: relative
+
       &:first-child
         background: transparent
         border:
           left: none
         padding-left: 200px
         vertical-align: middle
+
   &__icon
     margin: 0 auto 17px
     display: flex
     align-items: center
     justify-content: center
+
   h3
     font-weight: bold
     text-align: center
     margin: 0 auto 24px
     font-size: 34px
+
   tbody
     p
       color: #808080
       font-size: 29px
       font-weight: bold
+
     span
       width: 100%
       max-width: 330px
       display: inline-block
       float: right
+
     td
       text-align: center
       border:
         right: 0.75px solid #7C7C7C
         top: 0.75px solid #7C7C7C
+
       &:first-child
         text-align: left
         padding: 27px 34px 27px 57px
+
     tr
       &:last-child
         td
@@ -1024,6 +1168,7 @@
 
 .home-page
   padding: 0
+
   h1
     text-transform: uppercase
     font-size: 87px
@@ -1040,6 +1185,7 @@
   align-items: center
   justify-content: center
   flex-wrap: wrap
+
   .btn-download
     margin: auto
 
@@ -1047,6 +1193,7 @@
   padding: 83px 0 114px
   width: calc(100% - 409px)
   border-left: 0.35px solid rgba(#FFC200, .7)
+
   .description-text
     max-width: 562px
     font-size: 18px
@@ -1060,24 +1207,31 @@
 /*==========  section media-section ==========*/
 .media-section
   padding: 93px 0 123px
+
   .line-wrapper
     margin: 0 0 40px
+
   .news-card
     max-width: 487px
 
 
 .callback-touch
   padding: 121px 0 131px
+
   .callback-content
     max-width: 655px
+
   .callback-wrapper
     padding: 0 98px 0 85px
+
   .box-text
     margin: 38px 0 11px
+
   .mail
     color: #fff
     font-size: 72px
     font-weight: 600
+
     &:hover
       color: $grey
 
@@ -1090,18 +1244,23 @@
   display: flex
   align-items: center
   justify-content: center
+
   .list-social
     flex-wrap: wrap
     position: relative
     width: 100%
     height: 100%
+
     a
       width: 100%
       height: 100%
+
       img
         width: 100%
+
       &:hover
         background: #fff
+
     li
       position: absolute
 
@@ -1166,13 +1325,17 @@
 
 .cases-section-head
   padding: 96px 0 53px
+
   .list-tags
     width: 100%
     margin: 0 0 39px
+
     &:last-child
       margin: 0
+
     li
       margin: 0 50px 0 0
+
       &:last-child
         margin: 0
 
@@ -1185,8 +1348,10 @@
   cursor: pointer
   transition: .3s ease
   margin: 0 0 -0.75px
+
   &:last-child
     margin: 0
+
   &__footer
     border-left: 0.75px solid #000000
     display: flex
@@ -1198,42 +1363,55 @@
     right: -120px
     top: 0
     height: 100%
+
   .links-right
     width: 82px
     height: 82px
     background: $accent
     fill: #000
+
   &:hover
     background: $accent
+
     .name-project
       color: #fff
+
     .box-text
       margin: 40px 0 0
+
     .item-hover
       display: block
+
     .cases-row__body
       padding: 128px 0 124px
+
   &__body
     padding: 45px 0 52px
     position: relative
     width: calc(100% - 207px)
+
   &__content
     max-width: 645px
     width: 100%
+
   &__title
     width: 100%
     font-size: 34px
     font-weight: bold
     color: #000
+
     &:hover
       color: #000
+
   .name-project
     color: #808080
     font-size: 34px
     font-weight: bold
+
   .box-text
     margin: 22px 0 0
     font-size: 18px
+
   .item-hover
     position: absolute
     bottom: -0.75px
@@ -1241,48 +1419,329 @@
     right: 158px
     height: 349px
     margin: 0
+
     &__body
       height: 100%
+
   .item-hover__img
     height: 100%
 /*==========  section cases-section end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section competencies ==========*/
+.home-page-accent
+  background: $accent
+  color: #000
 
-/*==========  section end  ==========*/
+  .home-title
+    padding: 54px 0 87px 164px
+    border-color: #000
+
+  h1
+    font-size: 70px
+    text-transform: none
+    margin: 0 0 2px
+
+  .description-text
+    margin: 12px 0 0 0
+
+  .home-button-animate
+    border-color: #000
+
+.stacks
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  font-size: 25px
+  font-weight: 500
+
+.stacks-item
+  margin: 0 25px 5px 0
+
+  &:last-child
+    margin: 0 0 5px
+/*==========  section competencies end  ==========*/
 
 
 
 
 
 
-/*==========  section  ==========*/
+/*==========  section see-more ==========*/
+.see-more
+  margin: 0 0 127px
 
-/*==========  section end  ==========*/
+  .competencies-box
+    background: #fff
 
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
+.see-more-wrapper
+  margin: 67px 0 0
+/*==========  section see-more end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section tools ==========*/
+.tools-wrapper
+  width: 100%
+  margin: 74px 0 117px
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
 
-/*==========  section end  ==========*/
+.tools
+  .title-wrapper__box
+    border-right: 0.75px solid #000000
+
+.tools-box
+  width: 33.3%
+  border: 0.75px solid #000000
+  margin-right: -0.75px
+  padding: 50px 64px 50px 45px
+  font-size: 18px
+  overflow: hidden
+
+  h4
+    margin: 0 0 18px
+    width: 100%
+    font-weight: 600
+
+/*==========  section tools end  ==========*/
 
 
+
+
+
+/*==========  section .competencies-description ==========*/
+.competencies-description
+  width: 100%
+  margin: 127px 0
+
+.competencies-description-item
+  width: 100%
+
+  &__head
+    width: 100%
+    margin: 0 0 65px
+
+  &__body
+    width: 100%
+    padding: 0 0 0 175px
+
+    p
+      margin: 0 0 30px
+
+    ul
+      padding: 0 0 0 20px
+
+      li
+        margin: 0 0 10px
+
+        &:last-child
+          margin: 0
+
+    .box-text
+      font-size: 25px
+
+blockquote
+  margin: 119px 0 0
+  width: 100%
+  font-size: 20px
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+
+.blockquote-content
+  max-width: 890px
+  position: relative
+  line-height: 28px
+
+  &:before
+    content: '«'
+    position: absolute
+    line-height: 147px
+    font-size: 121px
+    color: #E6E6E6
+    top: -55px
+    left: -116px
+
+  p
+    &:last-child
+      margin: 0
+
+.blockquote-author
+  margin-left: 145px
+  text-align: center
+
+  &__photo
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    margin: 0 auto 16px
+    background: #D9D9D9
+    width: 115px
+    height: 115px
+    min-width: 115px
+
+  &__name
+    font-size: 18px
+    font-weight: 600
+
+  &__posititon
+    color: #808080
+
+/*==========  section .competencies-description end  ==========*/
+
+
+
+/*==========  section case page ==========*/
+.btn-all-cases
+  margin: 0 0 0 auto
+  height: 41px
+  padding: 0 33px
+  font-size: 14px
+
+.case-box-row
+  width: 100%
+  display: flex
+  align-items: center
+  margin: 0 0 30px
+  &:hover
+    .case-box-row__image
+      &:before
+        opacity: 1
+  &__image
+    background: #EDEDED
+    position: relative
+    width: 341px
+    min-width: 341px
+    height: 341px
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+      max-width: 143px
+      opacity: .2
+    &:before
+      content: ''
+      position: absolute
+      background: url("../img/decor.svg") no-repeat center
+        size: 100%
+      width: 17px
+      height: 17px
+      top: 35px
+      right: 35px
+      transition: .3s ease
+      opacity: 0
+  h3
+    font-size: 34px
+    font-weight: 700
+    margin: 0 0 30px
+  &__content
+    padding: 0 0 0 44px
+  .box-text
+    font-size: 18px
+    max-width: 295px
+
+/*==========  section case page end  ==========*/
+
+
+
+
+/*==========  section home-page-contacts ==========*/
+.home-page-contacts
+  .home-title
+    padding: 125px 0 153px 158px
+  h1
+    text-transform: uppercase
+
+.reasons-write
+  .title-wrapper__box
+    border-right: 0.75px solid #000
+
+.reasons-write-wrapper
+  margin: 108px 0 36px
+
+/*==========  section home-page-contacts end  ==========*/
+
+
+
+/*==========  section maps-location ==========*/
+.maps-location
+  position: relative
+  width: 100%
+  z-index: 1
+  padding: 138px 0 137px
+
+.map
+  width: 100%
+  height: 100%
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  iframe
+    width: 100%
+    height: 100%
+    filter: grayscale(100%)
+
+.maps-location-wrapper
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  padding: 0 85px
+
+.maps-location-markers
+  padding: 20px 0 0 238px
+  .logo-company
+    max-width: 304px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 auto 61px
+
+.marker-icon
+  position: relative
+  margin: 0 auto
+  max-width: 101px
+  width: 1005px
+  display: flex
+  align-items: center
+  justify-content: center
+  &:before
+    content: ''
+    position: absolute
+    width: 507px
+    height: 255px
+    background: url("../img/arrow-map.svg") no-repeat center
+      size: 100%
+    bottom: -86px
+    right: 45px
+
+
+.maps-location-box
+  max-width: 620px
+  width: 100%
+  background: #fff
+  padding: 72px 69px 77px 79px
+  h2
+    max-width: 400px
+    font-weight: 900
+    text-transform: uppercase
+    color: $accent
+    margin: 0 0 40px
+    line-height: 60px
+    img
+      margin: 0 0 0 20px
+      display: inline-block
+  .contacts-box
+    h3
+      margin: 0 0 17px
+
+/*==========  section maps-location end  ==========*/
 
 
 /*==========  section  ==========*/

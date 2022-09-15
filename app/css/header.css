@@ -152,4 +152,15 @@ header {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg); }
 
+.header {
+  background: #FFC200;
+  border-top-color: #000;
+  border-bottom-color: #000; }
+  .header .logo-arrow, .header .header-box {
+    border-color: #000; }
+  .header .menu li a:hover {
+    color: #000; }
+  .header .menu li .active {
+    color: #000; }
+
 /*==========  mobile-menu end  ==========*/

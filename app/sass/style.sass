@@ -50,7 +50,7 @@ body
 
 html, body
   overflow-x: hidden
-  //height: 100%
+//height: 100%
 
 img
   display: block
@@ -73,7 +73,8 @@ input, textarea, select
   outline: none
   box-shadow: none
   appearance: none
-  padding: 26px 20px 10px
+  // padding: 26px 20px 10px
+  padding: 10px 20px 10px 15px
   color: #000
   box-sizing: border-box
   font-size: 14px
@@ -83,7 +84,6 @@ input, textarea, select
   border: 0.75px solid #000000
     radius: 0
   background: #fff
-
   &::placeholder
     color: #808080
 
@@ -100,8 +100,9 @@ label
 textarea
   width: 100%
   height: 146px
-  padding: 26px 20px
-  resize: none
+  // padding: 26px 20px
+  padding: 15px
+    resize: none
 
 button, .btn
   outline: none
@@ -113,6 +114,7 @@ button, .btn
   margin: 0
   border: none
     radius: 0
+
   &:hover, &:focus
     box-shadow: none
     outline: none
@@ -182,6 +184,7 @@ h2
 
 .title-wrapper
   border: 0.75px solid #000000
+
   &__box
     width: calc(100% + 10px)
     height: 100%
@@ -194,10 +197,14 @@ h2
     border:
       //right: 0.75px solid #000000
       left: 0.75px solid #000000
+
     h3
-      font-size: 27px
-      line-height: 33px
+      font-size: 18px
+      line-height: 24px
+      // font-size: 27px
+      // line-height: 33px
       max-width: 870px
+
   h2
     margin: 0 auto 0 0
     width: fit-content
@@ -285,6 +292,7 @@ h2
   fill: #fff
   background: $accent
   padding: 25px 30px
+
   &:hover
     background: $grey
 
@@ -293,6 +301,7 @@ h2
   background: $grey
   fill: #BFBFBF
   border: 1px solid #000
+
   &:hover
     background: $accent
     fill: #fff
@@ -309,6 +318,7 @@ h2
   justify-content: center
   fill: #BFBFBF
   padding: 25px
+
   &:hover
     background: $accent
     border-color: $accent
@@ -320,8 +330,10 @@ h2
   align-items: center
   flex-wrap: wrap
   margin: 60px 0 0
+
   .slick-dots
     margin: 0 auto
+
   .slick-next
     order: 1
 
@@ -336,6 +348,7 @@ h2
   align-items: center
   justify-content: center
   list-style: none
+
   li
     margin: 0 12px 0 0
     width: 8px
@@ -344,10 +357,13 @@ h2
     background: #000
     cursor: pointer
     transition: .3s ease
+
     &:last-child
       margin: 0
+
     button
       display: none
+
   .slick-active
     background: $accent
 
@@ -364,6 +380,7 @@ h2
   background: transparent
   cursor: pointer
   transition: .3s ease
+
   &:hover
     fill: $accent
 

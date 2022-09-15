@@ -42,6 +42,7 @@
 
   .table-formats
     float: none
+
     tbody td
       &:first-child
         border-left: 0.75px solid #7C7C7C
@@ -49,6 +50,10 @@
   .formats
     .table-responsive
       overflow-x: auto
+
+  .blockquote-author
+    margin-left: auto
+
 
 @media only screen and (max-width: 1500px)
   .contacts .list-social li
@@ -124,14 +129,15 @@
     padding: 40px
 
 
-
   .community-item .item-hover__img
     height: 140px
 
   .news-slider
     margin: 30px 0 0
+
     .slick-list
       margin: 0 -10px
+
     .slick-slide
       padding: 0 10px
 
@@ -140,12 +146,14 @@
 
   .cases-item
     padding: 40px
+
     h3
       font-size: 30px
       line-height: normal
 
   .category-work-item
     padding: 30px
+
     h3
       font-size: 28px
 
@@ -172,7 +180,7 @@
 
   .home .logo
     max-width: 400px
-    margin: 0 
+    margin: 0
 
   .subtitle-logo
     max-width: 400px
@@ -180,10 +188,24 @@
   .home-page
     h1
       font-size: 70px
+
     .description-text
       margin: 0 20px 0 auto
 
   .callback-touch .callback-wrapper
+    padding: 0
+
+  .home-page-accent
+    .description-text
+      margin: 12px 0 0
+
+    h1
+      font-size: 50px
+
+  .blockquote-content
+    max-width: 700px
+
+  .maps-location-wrapper
     padding: 0
 
 @media only screen and (max-width: 1300px)
@@ -224,6 +246,27 @@
   .cases-row:hover .cases-row__body
     padding: 60px 0
 
+  .case-box-row
+    h3
+      font-size: 28px
+    &__image
+      width: 280px
+      height: 280px
+      min-width: 280px
+    img
+      max-width: 100px
+    &__content
+      padding: 0 0 0 20px
+    .box-text
+      font-size: 16px
+
+  .maps-location-box
+    max-width: 550px
+    padding: 30px
+
+  .maps-location-markers
+    padding: 20px 0 0 138px
+
 @media only screen and (max-width: 1200px)
   h2
     font-size: 40px
@@ -237,6 +280,7 @@
   footer
     .container
       padding: 0
+
     .logo
       border: none
         bottom: 0.75px solid rgba(#FFC200, .7)
@@ -247,6 +291,7 @@
       align-items: center
       padding: 23px 33px
       margin: 0
+
     .menu
       width: 100%
       display: flex
@@ -256,19 +301,26 @@
       padding: 24px 33px
       margin: 0
       border: none
+
       li
         width: 50%
         margin: 0 0 7px 0
+
         &:first-child
           order: -6
+
         &:nth-child(2)
           order: -3
+
         &:nth-child(3)
           order: -5
+
         &:nth-child(5)
           order: -2
+
         &:nth-child(6)
           order: -4
+
         &:last-child
           order: -1
 
@@ -324,15 +376,20 @@
 
   .reviews-box
     padding: 23px 20px
+
     &__photo
       max-width: 150px
+
     &__body
       width: calc(100% - 150px)
       padding: 0 0 0 11px
+
     &__company
       margin: 0 0 20px
+
     .position
       margin: 0 0 20px
+
     h3
       font-size: 24px
 
@@ -342,6 +399,7 @@
   .partners-slider
     .slick-list
       margin: 0 -15px
+
     .slick-slide
       padding: 0 15px
 
@@ -356,6 +414,7 @@
 
   .cases-item
     padding: 40px 30px
+
     h3
       font-size: 24px
       min-height: 93px
@@ -370,6 +429,7 @@
 
   .competencies-box
     padding: 20px
+
     &__title
       padding: 0 7px
       font-size: 16px
@@ -388,8 +448,10 @@
 
   .advantages-box
     font-size: 16px
+
     &__number
       font-size: 80px
+
     p
       padding: 0 0 0 10px
 
@@ -411,17 +473,20 @@
   .stages-work-slider-item
     width: 600px
     height: 350px
+
     &__icon
       max-width: 100px
 
   .header-text
     text-align: center
+
     p
       max-width: 360px
       margin: 0 auto
 
   .list-tags
     font-size: 18px
+
     li
       margin: 0 30px 0 0
 
@@ -434,6 +499,7 @@
 
   .stages-work-box
     width: calc(33.3% - 20px)
+
     &:nth-child(3)
       .icon-arrow
         display: none
@@ -452,6 +518,7 @@
   .callback-touch
     .mail
       font-size: 50px
+
     .callback-content
       max-width: 500px
 
@@ -493,6 +560,7 @@
 
   .cases-section-head .list-tags li
     margin: 0 20px 10px 0
+
     &:last-child
       margin: 0 0 10px
 
@@ -513,11 +581,64 @@
   .cases-row__title, .cases-row .name-project
     font-size: 24px
 
+  .home-page-accent
+    h1
+      margin: 0 0 2px
+      font-size: 40px
+
+    .home-title
+      padding: 30px 0 30px 100px
+
+  .stacks
+    font-size: 18px
+
+  .competencies-description-item__body
+    padding: 0
+
+  blockquote
+    margin: 50px 0 0
+
+  .blockquote-content
+    padding: 0 0 0 70px
+
+    &:before
+      font-size: 80px
+      left: 0
+
+  .case-box-row
+    &__image
+      width: 240px
+      min-width: 240px
+      height: 240px
+    h3
+      font-size: 20px
+      margin: 0 0 20px
+
+  .maps-location-box
+    max-width: 450px
+    h2
+      max-width: 320px
+
+  .maps-location-markers
+    padding: 0 0 0 138px
+    .logo-company
+      max-width: 200px
+      margin: 0 auto 20px
+
+  .marker-icon
+    max-width: 70px
+    &:before
+      width: 360px
+      height: 190px
+      bottom: -65px
+      right: 30px
+
 
 @media only screen and (max-width: 992px)
   header
     .menu, .header-box
       display: none
+
     .logo-arrow
       padding: 20px 0
 
@@ -535,11 +656,14 @@
     margin: 30px 0 0
     border: none
       top: 0.35px solid rgba(255, 194, 0, 0.7)
+
     .list-social
       margin: 0 auto
       justify-content: center
+
       li
         margin: 0 38px 0 0
+
         &:last-child
           margin: 0
 
@@ -549,6 +673,7 @@
 
     h2
       margin: 0
+
     &__box
       border: none
         left: 0.5px solid #000
@@ -559,6 +684,7 @@
 
   .contacts
     margin: 0
+
     .title-wrapper h2
       margin: 13px 0 20px
 
@@ -572,14 +698,18 @@
 
     .title-wrapper
       margin: 0
+
     .list-social
       justify-content: center
       flex-direction: column
       flex-wrap: nowrap
+
       li
         margin: 0 0 16px
+
         &:last-child
           margin: 0
+
         a
           width: 40px
           height: 40px
@@ -595,10 +725,13 @@
 
   .contacts-box
     line-height: normal
+
     h3, h4
       margin: 0 0 4px
+
     p
       margin: 0 0 20px
+
     a
       margin: 0 0 3px
 
@@ -617,13 +750,16 @@
 
   .reviews
     padding: 0 0 70px
+
     .links-bottom
       margin: 0 auto
+
     .title-wrapper__box
       border: none
       padding: 0
       width: auto
       margin: 0
+
     .link-arrow-wrapper
       margin: 0 0 0 auto
 
@@ -632,12 +768,15 @@
 
   .trust-us
     padding: 0 0 60px
+
     h2
       padding: 13px 0 15px
+
     .title-wrapper__box
       padding: 14px 0
       position: relative
       border: none
+
       &:before
         content: ''
         position: absolute
@@ -646,10 +785,11 @@
         height: 0.5px
         background: #000
         left: 50%
-        transform: translate(-50%,0)
+        transform: translate(-50%, 0)
 
   .partners-section
     margin: 30px 0 0
+
     h3
       font-size: 24px
 
@@ -658,18 +798,21 @@
       width: calc(100% - 80.5px)
       padding: 13px 18px 18px
       margin: 0 auto 0 0
+
     .links-bottom
       transform: rotate(-90deg)
+
     .title-wrapper__box
       border: none
       padding: 13px 17px
       position: relative
+
       &:before
         content: ''
         position: absolute
         top: 0
         left: 50%
-        transform: translate(-50%,0)
+        transform: translate(-50%, 0)
         width: calc(100% + 30px)
         height: .5px
         background: #000
@@ -707,8 +850,10 @@
       border: none
       width: calc(100% - 80.5px)
       margin: 0 auto 0 0
+
     .links-right
       margin: 0
+
     .title-wrapper__box
       width: calc(100% + 34px)
       margin: 0 -17px
@@ -721,6 +866,7 @@
 
   .competencies-box
     width: 50%
+
     h3
       min-height: auto
 
@@ -731,6 +877,7 @@
 
   .home
     padding: 60px 0 0
+
     .logo
       display: flex
       align-items: center
@@ -739,11 +886,14 @@
 
   .home-page
     padding: 0
+
     .header-box
       margin: 0
+
     h1
       margin: 0 0 20px
       font-size: 50px
+
     .description-text
       margin: 0
       max-width: none
@@ -752,6 +902,7 @@
     width: 90px
     border: none
     position: relative
+
     .btn-download
       position: relative
       right: 0
@@ -772,6 +923,7 @@
     padding: 23px 18px 0
     margin: 25px 0 0
     position: relative
+
     &:before
       content: ''
       position: absolute
@@ -779,7 +931,8 @@
       height: 0.35px
       background: rgba(255, 194, 0, 0.7)
       left: 50%
-      transform: translate(-50%,0)
+      transform: translate(-50%, 0)
+
     &:before
       top: 0
 
@@ -789,6 +942,7 @@
       text-align: left
       font-weight: 500
       padding: 0 120px 0 0
+
     .btn
       margin: 0 auto
       padding: 15px 50px
@@ -820,6 +974,7 @@
     margin: 0 auto 0 0
     border:
       right: 0.35px solid rgba(255, 194, 0, 0.7)
+
     p
       margin: 0
 
@@ -830,6 +985,7 @@
   .community
     .links-bottom
       margin: 0 auto
+
     .link-arrow-wrapper
       margin: 0 0 0 auto
 
@@ -846,6 +1002,7 @@
   .list-tags
     margin: 0 0 20px
     width: 100%
+
     li
       a
         padding: 0 0 10px
@@ -857,6 +1014,7 @@
   .table-formats thead th
     padding: 20px
     font-size: 14px
+
     &:first-child
       padding: 20px
 
@@ -868,13 +1026,16 @@
 
   .table-formats__icon
     height: 40px
+
     img
       max-height: 100%
 
   .formats
     margin: 0 0 60px
+
     .title-wrapper
       padding: 20px 0
+
     .title-wrapper__box
       display: none
 
@@ -885,18 +1046,22 @@
 
   .media-section
     padding: 60px 0 70px
+
     .line-wrapper
       margin: 0 0 20px
 
   .callback-touch
     padding: 70px 0
+
     .callback-content
       max-width: 330px
+
     .mail
       font-size: 30px
 
   .cases-section-head
     padding: 40px 0
+
     .list-tags
       margin: 0 0 30px
 
@@ -908,6 +1073,80 @@
 
   .cases-row__body
     width: calc(100% - 170px)
+
+  .home-page-accent
+    .header-box
+      border-color: #000
+
+    .home-title
+      padding: 30px 0
+
+    h1
+      font-size: 30px
+
+  .competencies-description
+    margin: 60px 0
+
+  .competencies-description-item
+    &__head
+      margin: 0 0 30px
+
+    &__body
+      padding: 0
+
+    .box-text
+      font-size: 20px
+
+  .blockquote-content
+    max-width: none
+    line-height: normal
+
+
+  blockquote
+    font-size: 16px
+    margin: 30px 0 0
+
+  .blockquote-author
+    order: -1
+    margin: 0 auto 20px
+
+  .tools-box
+    padding: 30px
+
+  .tools-wrapper
+    margin: 40px 0
+
+  .case-box-row
+    .box-text
+      max-width: none
+    br
+      display: none
+
+  .btn-all-cases
+    margin: 0 auto
+
+  .home-location-icon
+    max-width: 50px
+
+  .home-page-contacts
+    h1
+      margin: 0
+
+  .reasons-write
+    .title-wrapper
+      padding: 20px 0
+    &-wrapper
+      margin: 0 0 40px
+
+  .maps-location-box
+    max-width: 380px
+    h2
+      line-height: normal
+      max-width: 240px
+      img
+        max-width: 30px
+
+
 
 @media only screen and (max-width: 768px)
   .mb-40
@@ -929,7 +1168,6 @@
     margin: 0 0 20px
 
 
-
   .community-item
     h3
       font-size: 28px
@@ -947,8 +1185,10 @@
   .news-card
     &__img
       height: 220px
+
     &__body
       padding: 30px
+
     h3
       font-size: 20px
 
@@ -959,22 +1199,27 @@
     h3
       min-height: auto
       margin: 0 0 20px
+
     .box-text
       font-size: 16px
 
   .advantages-box
     width: 33.3%
     margin: 0
+
     &__number
       font-size: 50px
+
     p
       padding: 0 0 0 6px
 
   .partners-wrapper
     margin: 17px 0 25px
+
     .partners-box
       height: 23px
       padding: 0 5px
+
     .partners-box-js
       height: 23px
 
@@ -982,11 +1227,13 @@
   .stages-work-slider-item
     width: 300px
     height: 220px
+
     &__icon
       max-width: 60px
 
   .contacts-box-col
     margin-bottom: 0
+
     &:last-child
       margin-bottom: 39px
 
@@ -995,14 +1242,18 @@
 
   .stages-work-box
     width: calc(50% - 20px)
+
     &:nth-child(3)
       .icon-arrow
         display: flex
+
     &:nth-child(4), &:nth-child(2)
       .icon-arrow
         display: none
+
     &:last-child
       width: 100%
+
     &__number
       font-size: 90px
 
@@ -1014,11 +1265,14 @@
     .callback-content
       max-width: none
       padding: 0
+
     h2
       br
         display: none
+
     .box-text
       margin: 20px 0 10px
+
     .mail
       font-size: 24px
 
@@ -1027,6 +1281,7 @@
     width: 100%
     max-width: none
     height: auto
+
     .list-social
       li
         width: 50px
@@ -1038,20 +1293,36 @@
         bottom: 0
         right: 0
         margin: 0 10px 10px 0
+
         &:last-child
           margin: 0 0 10px
 
   .cases-section
     margin: 0 0 50px
 
+  .see-more
+    margin: 0 0 80px
+
+  .reasons-write-wrapper
+    margin: 0
+
+  .maps-location-markers
+    display: none
+
+  .maps-location
+    padding: 100px 0
+
 @media only screen and (max-width: 576px)
   .contacts
     .title-wrapper
       padding: 13px 0
+
       .container
         padding: 0 33px
+
       h2
         margin: 0
+
     .list-social
       li
         a
@@ -1062,6 +1333,7 @@
   .contacts-box
     font-size: 12px
     padding: 0 0 0 18px
+
     h3, h4
       font-size: 12px
 
@@ -1073,12 +1345,14 @@
 
   .callback
     padding: 41px 0 39px
+
     h2
       font-size: 50px
 
   .callback-content
     margin: 0 0 25px
     padding: 0 18px
+
     .box-text
       font-size: 14px
 
@@ -1102,6 +1376,7 @@
 
   .advantages-box
     width: 33.3%
+
     p
       padding: 0
 
@@ -1114,6 +1389,7 @@
 
   .home
     padding: 33px 0 0
+
     .logo
       max-width: 244px
 
@@ -1123,6 +1399,7 @@
   .btn-download
     width: 74px
     height: 74px
+
     img
       max-width: 16px
 
@@ -1142,6 +1419,7 @@
 
   .list-tags li
     margin: 0 20px 10px 0
+
     &:last-child
       margin: 0 0 10px
 
@@ -1153,14 +1431,17 @@
 
   .home-page
     padding: 0
+
     h1
       font-size: 30px
+
     .description-text
       font-size: 14px
 
   .media-section
     .line-wrapper
       margin: 0
+
     .news-card
       max-width: none
 
@@ -1172,6 +1453,7 @@
 
   .cases-row__footer
     width: 90px
+
     .links-right
       width: 50px
       height: 50px
@@ -1185,10 +1467,61 @@
     max-width: 300px
     height: 180px
 
+  .competencies-description-item__body .box-text
+    font-size: 14px
+
+    p
+      margin: 0 0 20px
+
+  .tools-box
+    width: 100%
+    margin: 0 0 -.75px
+    font-size: 14px
+
+  .blockquote-content
+    padding: 0 0 0 30px
+
+    &:before
+      font-size: 50px
+      top: -65px
+
+  .case-box-row
+    flex-direction: column
+    align-items: center
+    &__image
+      margin: 0 auto 20px
+    &__content
+      padding: 0
+      width: 100%
+
+  .see-more
+    margin: 0 0 50px
+
+  .maps-location
+    padding: 0
+
+  .map
+    position: relative
+    height: 300px
+
+  .maps-location-box
+    max-width: none
+    padding: 0
+    margin: 0 0 20px
+    h2
+      max-width: none
+      margin: 0 0 30px
+      img
+        max-width: 20px
+        margin: 0 0 0 10px
+    .contacts-box
+      padding: 0
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px)
   .title-wrapper__box
     font-size: 14px
+
     h3
       font-size: 16px
 
@@ -1218,12 +1551,14 @@
 
   .quote
     padding: 0 0 0 30px
+
     &:before
       width: 25px
       height: 25px
 
   .header-box
     display: none
+
     .list-social
       li
         a
@@ -1235,6 +1570,7 @@
     padding: 13.5px 0 13.5px 18px
     font-size: 12px
     width: calc(100% - 44px)
+
     p
       max-width: 265px
 
@@ -1258,8 +1594,10 @@
     .logo
       img
         max-width: 82px
+
     .menu
       font-size: 12px
+
     .phone
       font-size: 16px
       padding: 12px 18px 12px 24px
@@ -1282,8 +1620,10 @@
   .label-file
     margin: 0 0 15px
     padding: 7px 7px 9px
+
     strong
       font-size: 8px
+
     &__text
       span
         font-size: 8px
@@ -1303,321 +1643,382 @@
     justify-content: space-between
     padding: 10px 22px
     width: 100%
-    margin: 0 auto
+  // margin: 0 auto
+  margin: 15px auto
 
   .advantages-box
-    font-size: 6px
+    font-size: 11px
     max-width: 62px
     width: 100%
+
     &__number
       font-size: 40px
+
     p
       max-width: 75px
 
-  .home
-    .logo
+  .advantages-box_two
+    margin-left: -20px
+
+    .home
+      .logo
+        max-width: none
+        padding: 0 18px
+
+    .subtitle-logo
       max-width: none
+
+    .header-box .list-social
+      justify-content: space-between
+      padding: 0 10px
+
+    .home-content
+      justify-content: space-between
+      flex-direction: row
+      flex-wrap: wrap
+
+      .btn-download
+        position: relative
+        top: 0
+        right: 0
+        min-width: 73px
+        margin: 0
+
+      .btn
+
+        margin-bottom: 20px
+        padding: 9px 20px
+        font-size: 15px
+        max-width: none
+        width: 100%
+        height: 40px
+
+        h3
+          font-size: 20px
+          line-height: 24px
+          max-width: 135px
+          margin: 0 auto 30px 0
+
+    .subtitle-logo
       padding: 0 18px
+      margin: 10px auto 0
 
-  .subtitle-logo
-    max-width: none
-
-  .header-box .list-social
-    justify-content: space-between
-    padding: 0 10px
-
-  .home-content
-    justify-content: space-between
-    flex-direction: row
-    flex-wrap: wrap
-    .btn-download
-      position: relative
-      top: 0
-      right: 0
-      min-width: 73px
-      margin: 0
-
-    .btn
-      padding: 9px 20px
-      font-size: 15px
-      max-width: none
-      width: 100%
-      height: 40px
-
-    h3
-      font-size: 20px
-      line-height: 24px
-      max-width: 135px
-      margin: 0 auto 30px 0
-
-  .subtitle-logo
-    padding: 0 18px
-    margin: 10px auto 0
-
-  .title-wrapper
-    h2
-      padding-left: 20px
-
-  .competencies-wrapper
-    margin: 0 -15px
-    width: calc(100% + 30px)
-
-  .competencies-box
-    padding: 22px 25px
-    width: 100%
-    border: none
-      bottom: 0.75px solid #000000
-    margin: 0
-    h3
-      font-size: 16px
-      margin: 24px 0 11px
-      padding: 0 11px
-    .box-text
-      font-size: 14px
-      padding: 14px 11px 5px
-    &:before
-      width: 14px
-      height: 14px
-
-  .competencies, .reviews, .community
-    .title-wrapper__box
-      margin: 0 -15px 0 auto
-
-  .links-right
-    width: 30px
-    min-width: 30px
-    height: 30px
-    padding: 8px
-    border: 0.5px solid #000000
-
-  .stages-work
-    margin: 0 0 20px
-    h2
-      width: calc(100% - 45px)
-
-  .category-work-item
-    padding: 24px 34px 35px
-    font-size: 14px
-    margin: 0
-    border: none
-      top: 0.75px solid #000
-    h3
-      font-size: 16px
-      margin: 0 0 10px
-    &:before
-      top: 20px
-      right: 18px
-      width: 14px
-      height: 14px
-
-  .stages-work-slider
-    margin: 20px 0 0
-    .slide
-      margin: 0
-      padding: 0 15px
-
-  .stages-work-slider-item
-    width: 100%
-    height: 150px
-
-  .stages-work-slider-item__icon
-    max-width: 54px
-
-  .slider-nav
-    margin: 20px 0 0
-
-  .slick-dots
-    li
-      width: 3px
-      height: 3px
-      margin: 0 4px 0 0
-
-  .slick-arrow
-    width: 17px
-    height: 12px
-
-  .section-wrapper
-    padding: 10px 0 32px
-    .slider-nav
-      margin: 28px 0 0
-
-  .cases
-    h2
-      width: calc(100% - 45px)
-    .title-wrapper__box h3
-      font-size: 14px
-
-  .cases-item
-    min-height: 256px
-    padding: 20px 36px
-    justify-content: center
-    h3
-      font-size: 20px
-      margin: 0 0 14px
-    .box-text
-      font-size: 14px
-    &:hover
-      padding-top: 20px
-
-  .trust-us
-    padding: 0 0 39px
     .title-wrapper
-      margin: 0 0 24px
-    .title-wrapper__box
-      font-size: 14px
-      padding: 13px 18px
+      h2
+        padding-left: 20px
 
-  .trust-us-box
-    max-width: none
-    margin: 0 auto
-    font-size: 14px
-    .position
-      min-height: auto
-    &__body
-      padding: 23px 25px 26px
-    h3
-      font-size: 16px
-      margin: 0 0 13px
-    &__footer
-      padding: 18px 0 0
-      margin: 13px 0 0
+    .competencies-wrapper
+      margin: 0 -15px
+      width: calc(100% + 30px)
 
-  .links-contacts
-    width: 28px
-    height: 28px
-    min-width: 28px
-    margin: 0 0 0 17px
-    padding: 7px
+    .competencies-box
+      padding: 22px 25px
+      width: 100%
+      border: none
+        bottom: 0.75px solid #000000
+      margin: 0
 
-  .partners-section
-    h3
-      margin: 0 0 20px
-      font-size: 18px
-      padding-left: 18px
+      h3
+        font-size: 16px
+        margin: 24px 0 11px
+        padding: 0 11px
 
-  .reviews
-    padding: 0 0 30px
+      .box-text
+        font-size: 14px
+        padding: 14px 11px 5px
 
-  .reviews-slider
-    margin: 34px 0 0
-
-  .reviews-box
-    &__photo
-      max-width: 90px
-    &__body
-      width: calc(100% - 90px)
-    &__company
-      margin: 0 0 11px
-      font-size: 14px
-    h3
-      font-size: 16px
-      margin: 0 0 10px
-    .position
-      font-size: 14px
-      margin: 0 0 6px
-
-  .quote
-    padding: 0 0 0 17px
-    font-size: 14px
-    line-height: normal
-    max-height: 54px
-    overflow: hidden
-    &:before
-      width: 12px
-      height: 12px
-
-  .link-modal-reviews
-    display: block
-
-  .news
-    padding: 0 0 70px
-    h2
-      width: calc(100% - 45px)
-
-  .news-slider
-    margin: 20px 0 0
-
-  .news-card
-    &__img
-      height: 150px
-    &__body
-      height: calc(100% - 150px)
-      padding: 25px 30px 32px
       &:before
         width: 14px
         height: 14px
-        top: 16px
-        right: 18px
-    &__date
-      margin: 30px 0 0
+
+    .competencies, .reviews, .community
+      .title-wrapper__box
+        margin: 0 -15px 0 auto
+
+    .links-right
+      width: 30px
+      min-width: 30px
+      height: 30px
+      padding: 8px
+      border: 0.5px solid #000000
+
+    .stages-work
+      margin: 0 0 20px
+
+      h2
+        width: calc(100% - 45px)
+
+    .category-work-item
+      padding: 24px 34px 35px
       font-size: 14px
-    .box-text
+      margin: 0
+      border: none
+        top: 0.75px solid #000
+
+      h3
+        font-size: 16px
+        margin: 0 0 10px
+
+      &:before
+        top: 20px
+        right: 18px
+        width: 14px
+        height: 14px
+
+    .stages-work-slider
+      margin: 20px 0 0
+
+      .slide
+        margin: 0
+        padding: 0 15px
+
+    .stages-work-slider-item
+      width: 100%
+      height: 190px
+
+    .stages-work-slider-item__icon
+      max-width: 54px
+
+    .slider-nav
+      margin: 20px 0 0
+
+    .slick-dots
+      li
+        width: 3px
+        height: 3px
+        margin: 0 4px 0 0
+
+    .slick-arrow
+      width: 17px
+      height: 12px
+
+    .section-wrapper
+      padding: 10px 0 32px
+
+      .slider-nav
+        margin: 28px 0 0
+
+    .cases
+      h2
+        width: calc(100% - 45px)
+
+      .title-wrapper__box h3
+        font-size: 14px
+
+    .cases-item
+      min-height: 256px
+      padding: 20px 36px
+      justify-content: center
+
+      h3
+        font-size: 20px
+        margin: 0 0 14px
+
+      .box-text
+        font-size: 14px
+
+      &:hover
+        padding-top: 20px
+
+    .trust-us
+      padding: 0 0 39px
+
+      .title-wrapper
+        margin: 0 0 24px
+
+      .title-wrapper__box
+        font-size: 14px
+        padding: 13px 18px
+
+    .trust-us-box
+      max-width: none
+      margin: 0 auto
+      font-size: 14px
+
+      .position
+        min-height: auto
+
+      &__body
+        padding: 23px 25px 26px
+
+      h3
+        font-size: 16px
+        margin: 0 0 13px
+
+      &__footer
+        padding: 18px 0 0
+        margin: 13px 0 0
+
+    .links-contacts
+      width: 28px
+      height: 28px
+      min-width: 28px
+      margin: 0 0 0 17px
+      padding: 7px
+
+    .partners-section
+      h3
+        margin: 0 0 20px
+        font-size: 18px
+        padding-left: 18px
+
+    .reviews
+      padding: 0 0 30px
+
+    .reviews-slider
+      margin: 34px 0 0
+
+    .reviews-box
+      &__photo
+        max-width: 90px
+
+      &__body
+        width: calc(100% - 90px)
+
+      &__company
+        margin: 0 0 11px
+        font-size: 14px
+
+      h3
+        font-size: 16px
+        margin: 0 0 10px
+
+      .position
+        font-size: 14px
+        margin: 0 0 6px
+
+    .quote
+      padding: 0 0 0 17px
       font-size: 14px
       line-height: normal
-    h3
-      font-size: 16px
-      margin: 0 0 10px
+      max-height: 54px
+      overflow: hidden
 
-  .community
-    .section-wrapper
-      padding: 26px 0 16px
+      &:before
+        width: 12px
+        height: 12px
+
+    .link-modal-reviews
+      display: block
+
+    .news
+      padding: 0 0 70px
+
+      h2
+        width: calc(100% - 45px)
+
+    .news-slider
+      margin: 20px 0 0
+
+    .news-card
+      &__img
+        height: 150px
+
+      &__body
+        height: calc(100% - 150px)
+        padding: 25px 30px 32px
+
+        &:before
+          width: 14px
+          height: 14px
+          top: 16px
+          right: 18px
+
+      &__date
+        margin: 30px 0 0
+        font-size: 14px
+
+      .box-text
+        font-size: 14px
+        line-height: normal
+
+      h3
+        font-size: 16px
+        margin: 0 0 10px
+
+    .community
+      .section-wrapper
+        padding: 26px 0 16px
 
 
-  .community-item
-    padding: 40px 45px 20px
-    justify-content: center
-    font-size: 14px
-    line-height: normal
-    &:hover
-      justify-content: space-between
-      padding-top: 50px
+    .community-item
+      padding: 40px 45px 20px
+      justify-content: center
+      font-size: 14px
+      line-height: normal
 
-  .contacts .title-wrapper h2
-    padding: 0
+      &:hover
+        justify-content: space-between
+        padding-top: 50px
 
-  .cases
-    .line-wrapper
-      margin: 30px 0
+    .contacts .title-wrapper h2
+      padding: 0
 
-  .list-tags
-    margin: 0
+    .cases
+      .line-wrapper
+        margin: 30px 0
 
-  .stages-work-v2 .title-wrapper__box
-    width: 45px
-    margin: 0
-
-  .stages-work-box
-    width: 100%
-    &:nth-child(3)
-      .icon-arrow
-        display: none
-    .icon-arrow
-      display: none
-    &__number
-      font-size: 70px
-
-  .cases-row .box-text
-    font-size: 14px
-
-  .cases-row__title, .cases-row .name-project
-    font-size: 20px
-
-  .cases-row__body
-    padding: 20px 0
-
-  .cases-row__footer
-    padding: 20px 10px
-
-  .cases-section-head .list-tags
-    margin: 0 0 20px
-    &:last-child
+    .list-tags
       margin: 0
 
-  .list-tags
-    font-size: 16px
+    .stages-work-v2 .title-wrapper__box
+      width: 45px
+      margin: 0
 
-  .cases-section
-    margin: 0 0 30px
+    .stages-work-box
+      width: 100%
+
+      &:nth-child(3)
+        .icon-arrow
+          display: none
+
+      .icon-arrow
+        display: none
+
+      &__number
+        font-size: 70px
+
+    .cases-row .box-text
+      font-size: 14px
+
+    .cases-row__title, .cases-row .name-project
+      font-size: 20px
+
+    .cases-row__body
+      padding: 20px 0
+
+    .cases-row__footer
+      padding: 20px 10px
+
+    .cases-section-head .list-tags
+      margin: 0 0 20px
+
+      &:last-child
+        margin: 0
+
+    .list-tags
+      font-size: 16px
+
+    .cases-section
+      margin: 0 0 30px
+
+    .home-page-accent
+      h1
+        font-size: 26px
+
+    .stacks
+      font-size: 16px
+
+
+  .case-box-row
+    &__image
+      width: 200px
+      height: 200px
+      min-width: 200px
+      img
+        max-width: 80px
+    .box-text
+      font-size: 14px
 
 
 @media only screen and (max-width: 420px)
@@ -1630,10 +2031,13 @@
   .competencies-box
     &:hover
       background: #FFFFFF
+
       &:before
         opacity: 1
+
       .box-text
         background: $accent
+
       .icon-decor
         &:before
           opacity: 1

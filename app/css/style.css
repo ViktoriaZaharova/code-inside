@@ -68,7 +68,7 @@ input, textarea, select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  padding: 26px 20px 10px;
+  padding: 10px 20px 10px 15px;
   color: #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -100,8 +100,8 @@ label {
 textarea {
   width: 100%;
   height: 146px;
-  padding: 26px 20px;
-  resize: none; }
+  padding: 15px;
+    padding-resize: none; }
 
 button, .btn {
   outline: none;
@@ -207,8 +207,8 @@ h2 {
     margin: 0 0 0 -10px;
     border-left: 0.75px solid #000000; }
     .title-wrapper__box h3 {
-      font-size: 27px;
-      line-height: 33px;
+      font-size: 18px;
+      line-height: 24px;
       max-width: 870px; }
   .title-wrapper h2 {
     margin: 0 auto 0 0;
